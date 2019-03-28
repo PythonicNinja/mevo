@@ -2133,3 +2133,48 @@ Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:
 
 2019-03-29 00:32:02 (369 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:32:00.697146.xml’ saved [231165/231165]
 
+--2019-03-29 00:33:01--  https://mevo-api.nextbike.net/maps/nextbike-live.xml
+Resolving mevo-api.nextbike.net... 46.163.83.209
+Connecting to mevo-api.nextbike.net|46.163.83.209|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 230740 (225K) [text/xml]
+Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:33:01.014559.xml’
+
+     0K .......... .......... .......... .......... .......... 22%  233K 1s
+    50K .......... .......... .......... .......... .......... 44%  343K 0s
+   100K .......... .......... .......... .......... .......... 66%  447K 0s
+   150K .......... .......... .......... .......... .......... 88%  368K 0s
+   200K .......... .......... .....                           100%  394K=0.7s
+
+2019-03-29 00:33:01 (335 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:33:01.014559.xml’ saved [230740/230740]
+
+--2019-03-29 00:34:00--  https://mevo-api.nextbike.net/maps/nextbike-live.xml
+Resolving mevo-api.nextbike.net... 46.163.83.209
+Connecting to mevo-api.nextbike.net|46.163.83.209|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 230913 (226K) [text/xml]
+Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:34:00.315371.xml’
+
+     0K .......... .......... .......... .......... .......... 22%  254K 1s
+    50K .......... .......... .......... .......... .......... 44%  337K 0s
+   100K .......... .......... .......... .......... .......... 66%  436K 0s
+   150K .......... .......... .......... .......... .......... 88%  451K 0s
+   200K .......... .......... .....                           100%  645K=0.6s
+
+2019-03-29 00:34:01 (370 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:34:00.315371.xml’ saved [230913/230913]
+
+--2019-03-29 00:35:01--  https://mevo-api.nextbike.net/maps/nextbike-live.xml
+Resolving mevo-api.nextbike.net... 46.163.83.209
+Connecting to mevo-api.nextbike.net|46.163.83.209|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 230341 (225K) [text/xml]
+Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:35:01.393101.xml’
+
+     0K .......... .......... .......... .......... .......... 22%  237K 1s
+    50K .......... .......... .......... .......... .......... 44%  431K 0s
+   100K .......... .......... .......... .......... .......... 66%  397K 0s
+   150K .......... .......... .......... .......... .......... 88%  487K 0s
+   200K .......... .......... ....                            100%  497K=0.6s
+
+2019-03-29 00:35:02 (371 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:35:01.393101.xml’ saved [230341/230341]
+
