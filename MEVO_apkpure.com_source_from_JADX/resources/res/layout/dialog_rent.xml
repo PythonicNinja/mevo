@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/textGreyDark" android:id="@+id/dialog_rent_rent_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dialog_rent_bike_rent_info"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:layout_gravity="end" android:id="@+id/rent_dialog_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" style="@style/buttonDialog"/>
+    </LinearLayout>
+</LinearLayout>

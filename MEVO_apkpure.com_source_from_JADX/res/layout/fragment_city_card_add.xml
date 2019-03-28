@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/fragment_city_card_add_progress_bar" android:visibility="gone" android:layout_width="@dimen/progress_bar_size" android:layout_height="@dimen/progress_bar_size" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/standard_padding" android:paddingRight="@dimen/standard_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_marginBottom="36.0dip" android:text="@string/frag_proximity_card_header" style="@style/text_registration_title" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/type_card_number" style="@style/text_no_items" />
+            <com.mevo.app.presentation.custom_views.CustomInput android:id="@id/cart_number_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_text_check_padding_top_bottom" app:customInput_background="@drawable/edit_text_bg_grey">
+                <android.support.design.widget.TextInputLayout android:id="@id/cart_number_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextInputLayoutBasic">
+                    <android.support.design.widget.TextInputEditText android:textSize="@dimen/standard_text_size" android:textColor="@color/textInput" android:id="@id/cart_number" android:background="@drawable/custom_input_valid_edit_text_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/card_number" android:maxLines="1" android:inputType="number" android:imeOptions="actionNext" />
+                </android.support.design.widget.TextInputLayout>
+            </com.mevo.app.presentation.custom_views.CustomInput>
+            <Button android:id="@id/add_card_button" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:layout_marginTop="24.0dip" android:text="@string/add" style="@style/buttonBlue" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/to_add_card" style="@style/text_no_items" />
+            <Button android:id="@id/scan_card_button" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:layout_marginTop="24.0dip" android:text="@string/scan_card" style="@style/buttonBlue" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

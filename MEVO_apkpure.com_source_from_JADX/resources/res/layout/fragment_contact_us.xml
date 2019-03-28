@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="24sp" android:textColor="@color/textStationMain" android:id="@+id/fragment_contact_us_header" android:padding="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/drawer_item_contact_us" android:textAlignment="center" app:layout_constraintTop_toTopOf="0" style="@style/text_main_title"/>
+    <View android:id="@+id/fragment_contact_us_header_separator" android:background="@color/backgroundLightBlue" android:layout_width="match_parent" android:layout_height="1dp" app:layout_constraintTop_toBottomOf="@+id/fragment_contact_us_header"/>
+    <ImageView android:id="@+id/fragment_contact_us_eu_logos" android:background="@color/white" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/eu_logo" android:scaleType="fitCenter" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="0"/>
+    <TextView android:textSize="10sp" android:textColor="@color/textBasic2" android:gravity="center" android:id="@+id/fragment_contact_us_financing_info" android:background="@color/white" android:padding="@dimen/space_standard" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/info_eu_financing" app:layout_constraintBottom_toTopOf="@+id/fragment_contact_us_eu_logos"/>
+    <View android:id="@+id/fragment_contact_us_financing_info_separator" android:background="@color/backgroundLightBlue" android:layout_width="match_parent" android:layout_height="1dp" app:layout_constraintBottom_toTopOf="@+id/fragment_contact_us_financing_info"/>
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:overScrollMode="ifContentScrolls" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintBottom_toTopOf="@+id/fragment_contact_us_financing_info" app:layout_constraintTop_toBottomOf="@+id/fragment_contact_us_header_separator">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.constraint.ConstraintLayout android:id="@+id/fragment_contact_us_phone_container" android:background="@drawable/button_bg_dark" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/contact_phone_icon" app:layout_constraintTop_toTopOf="0">
+                    <TextView android:textColor="@color/textStationMain" android:gravity="bottom" android:id="@+id/contact_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_center" android:textAlignment="gravity"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/mevo_light_blue" android:ellipsize="end" android:id="@+id/contact_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_hours" android:maxLines="2"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/mevo_light_blue" android:id="@+id/contact_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:text=""/>
+                    <TextView android:textSize="14sp" android:textColor="@color/mevo_light_blue" android:id="@+id/contact_phone_cost_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:text="@string/contact_cost_disclaimer" android:layout_marginEnd="40dp"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/contact_phone_icon" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/contact_phone"/>
+            </android.support.constraint.ConstraintLayout>
+            <View android:background="@color/backgroundLightBlue" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fragment_contact_us_general_email_container" android:background="@drawable/button_bg_dark" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp">
+                    <TextView android:textColor="@color/textStationMain" android:gravity="bottom" android:id="@+id/contact_complaints" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_complaints" android:textAlignment="gravity"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/mevo_light_blue" android:id="@+id/contact_email" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/contact_email_icon" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitCenter" app:srcCompat="@drawable/contact_email"/>
+            </LinearLayout>
+            <View android:background="@color/backgroundLightBlue" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fragment_contact_us_complaint_appeal_container" android:background="@drawable/button_bg_dark" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp">
+                    <TextView android:textColor="@color/textStationMain" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_complaint_appeal" android:textAlignment="gravity"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/mevo_light_blue" android:id="@+id/contact_complaint_appeal_mail" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <ImageView android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitCenter" app:srcCompat="@drawable/ic_complaint_appeal"/>
+            </LinearLayout>
+            <View android:background="@color/backgroundLightBlue" android:layout_width="match_parent" android:layout_height="1dp"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

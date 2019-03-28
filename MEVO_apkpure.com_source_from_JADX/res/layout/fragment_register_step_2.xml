@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_30" android:layout_marginRight="@dimen/margin_30" android:layout_marginStart="@dimen/margin_30" android:layout_marginEnd="@dimen/margin_30">
+        <TextView android:textColor="@color/colorAccent" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/register" style="@style/text_registration_title" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/colorAccent" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_2" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorAccent" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/acceptance_of_the_regulations" />
+        <android.support.v7.widget.AppCompatButton android:id="@id/fragment_register_step_two_download_button" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="24.0dip" android:text="@string/register_accept_regulamin" style="@style/buttonWhite" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+            <android.support.v7.widget.RecyclerView android:id="@id/fragment_register_step_2_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatButton android:id="@id/fragment_register_step_clausules" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="24.0dip" android:text="@string/register_info_closures" style="@style/buttonWhite" />
+        <android.support.v7.widget.AppCompatButton android:id="@id/fragment_register_step_two_keep_going_button" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:layout_marginTop="12.0dip" android:layout_marginBottom="25.0dip" android:text="@string/keep_going" style="@style/buttonBlue" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/hintTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/fill_this_fields" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/register_agreements_info" />
+    </LinearLayout>
+</ScrollView>

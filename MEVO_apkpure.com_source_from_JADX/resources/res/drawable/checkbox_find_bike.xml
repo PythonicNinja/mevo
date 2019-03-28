@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/space_standard" android:width="@dimen/space_standard"/>
+            <corners android:radius="@dimen/space_mini"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/space_mini"/>
+                    <solid android:color="@color/white"/>
+                    <size android:height="@dimen/space_standard" android:width="@dimen/space_standard"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/check_find_bike_16dp"/>
+        </layer-list>
+    </item>
+</selector>

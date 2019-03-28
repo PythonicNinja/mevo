@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/textGreyDark" android:id="@id/dialog_info_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hce_scanning_in_progress" android:fontFamily="@font/roboto_regular" />
+    <TextView android:textSize="36.0sp" android:textColor="@color/textBasic2" android:gravity="center" android:id="@id/dialog_info_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" android:textAlignment="gravity" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="end" android:id="@id/dialog_info_abort_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hce_stop_scanning" style="@style/buttonDialog" />
+    </LinearLayout>
+</LinearLayout>

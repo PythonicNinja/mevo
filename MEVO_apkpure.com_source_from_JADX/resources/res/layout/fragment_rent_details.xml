@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/fragment_rent_details_info_container" android:background="@color/mapColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="6dp" app:layout_constraintBottom_toBottomOf="0">
+        <com.mevo.app.presentation.custom_views.BasicHeader android:id="@+id/fragment_rent_details_header" android:layout_width="match_parent" android:layout_height="45dp" app:headerText="@string/fragment_rent_details_header" app:hideRefresh="true"/>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="@dimen/space_mini" android:src="@drawable/active_renting" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/space_mini"/>
+                <TextView android:id="@+id/fragment_rent_details_bike_number" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RegularTextStyleX"/>
+            </LinearLayout>
+            <TextView android:textColor="@color/textStationLightBlue" android:id="@+id/fragment_rent_details_rent_duration" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" style="@style/RegularTextStyleX"/>
+            <TextView android:textColor="@color/textStationLightBlue" android:id="@+id/fragment_rent_details_price" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RegularTextStyleX"/>
+            <TextView android:textColor="@color/textStationLightBlue" android:id="@+id/fragment_rent_details_subscription_minutes_used" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" style="@style/RegularTextStyleX"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.gms.maps.MapView android:id="@+id/fragment_rent_details_map" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/fragment_rent_details_info_container" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

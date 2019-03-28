@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2">
+        <FrameLayout android:id="@+id/fragment_rent_summary_map_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <com.google.android.gms.maps.MapView android:id="@+id/fragment_rent_summary_map" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <com.mevo.app.presentation.main.rent_summary.RentDetailsView android:id="@+id/detail_custom_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <com.mevo.app.presentation.custom_views.ProgressOverlayView android:id="@+id/fragment_rent_summary_progress" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</android.support.design.widget.CoordinatorLayout>

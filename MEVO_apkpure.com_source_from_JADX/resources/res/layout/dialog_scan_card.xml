@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:textColor="@color/textGreyDark" android:id="@+id/dialog_info_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hce_scanning_in_progress" android:fontFamily="@font/roboto_regular"/>
+    <TextView android:textSize="36sp" android:textColor="@color/textBasic2" android:gravity="center" android:id="@+id/dialog_info_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginBottom="32dp" android:textAlignment="gravity"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="end" android:id="@+id/dialog_info_abort_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hce_stop_scanning" style="@style/buttonDialog"/>
+    </LinearLayout>
+</LinearLayout>

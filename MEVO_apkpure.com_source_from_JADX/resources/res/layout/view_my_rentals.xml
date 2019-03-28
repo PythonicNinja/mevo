@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.mevo.app.presentation.custom_views.BasicHeader android:id="@+id/fragment_rent_history_header" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="10dp" app:headerText="@string/my_rentals" style="@style/RegularTextStyle"/>
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@+id/no_rentals_text" android:background="@color/white" android:paddingLeft="@dimen/standard_padding" android:paddingTop="@dimen/big_padding" android:paddingRight="@dimen/standard_padding" android:paddingBottom="@dimen/big_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_rentals" android:textAlignment="center" style="@style/text_no_items"/>
+    </FrameLayout>
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <android.support.v7.widget.RecyclerView android:id="@+id/fragment_rent_history_recycler" android:visibility="visible" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/transparent" android:layout_below="@+id/fragment_rent_history_header"/>
+        </android.support.v4.widget.NestedScrollView>
+    </FrameLayout>
+</LinearLayout>

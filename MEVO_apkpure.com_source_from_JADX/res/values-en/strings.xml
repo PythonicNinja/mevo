@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abbreviation_minutes">Min.</string>
+    <string name="abbreviation_seconds">Sek.</string>
+    <string name="acceptance_of_the_regulations">Acceptance of the regulations</string>
+    <string name="account_active">active</string>
+    <string name="account_inactive">inactive</string>
+    <string name="account_status_2">Account balance:</string>
+    <string name="active">active</string>
+    <string name="add">add</string>
+    <string name="add_next_card">ADD ANOTHER CARD</string>
+    <string name="additionally">additionally:</string>
+    <string name="address_hint">Street</string>
+    <string name="amount_of_reserved_bikes">Reserved bikes: %1$s</string>
+    <string name="app_name">Mevo</string>
+    <string name="battery_smartbike">battery:</string>
+    <string name="bike_book_time">the booking will expire for: %1$s</string>
+    <string name="bike_cannot_be_returned_trough_app">This bike now can not be returned by the application</string>
+    <string name="bike_not_availaible_for_rent">The bike is not available</string>
+    <string name="bike_number">Bike number</string>
+    <string name="bike_parking_fail">Bike parking %1$s failed!</string>
+    <string name="bike_parking_success">The bike number %1$s has been parked!</string>
+    <string name="bike_rent_resume_fail">The resumption of bike rental number %1$s has failed!</string>
+    <string name="bike_rent_resume_success">Bike rental number %1$s has been resumed!</string>
+    <string name="bike_rent_time">time: %1$s</string>
+    <string name="bike_rent_time_cost">time: %1$s, cost: %2$s</string>
+    <string name="bike_rental">rental:</string>
+    <string name="bike_reservation_cancel_fail">Canceling a bike booking failed!</string>
+    <string name="bike_reservation_cancel_success">Bike booking has been canceled!</string>
+    <string name="bike_reservation_confimation_question">Do you want to book a bike?</string>
+    <string name="bike_return">return:</string>
+    <string name="bike_type_electric">Smartbike</string>
+    <string name="bike_type_kids_4">Kids bike 4+</string>
+    <string name="bike_type_kids_6">Kids bike 6+</string>
+    <string name="bike_type_standard">Standard bike</string>
+    <string name="bike_type_tandem">Tandem</string>
+    <string name="bikes_num">Bikes</string>
+    <string name="bikes_number">Number of bikes:</string>
+    <string name="bikes_stations">Bikes at the station %1$s</string>
+    <string name="cancel">Cancel</string>
+    <string name="card_added">Card added.</string>
+    <string name="card_number">Card number</string>
+    <string name="card_number_colon">Card number:</string>
+    <string name="chain">Chain</string>
+    <string name="channel_description">default channel</string>
+    <string name="check_all_terms">Select all required consents</string>
+    <string name="check_box_error">Select at least one element</string>
+    <string name="city_error">Enter the city name</string>
+    <string name="city_hint">City</string>
+    <string name="close">Close</string>
+    <string name="code">Code:</string>
+    <string name="code_block">lock code:</string>
+    <string name="confirmation_of_the_telephone_number">Confirmation of the telephone number</string>
+    <string name="contact_center">Customer Service Office</string>
+    <string name="contact_complaint_appeal">File an appeal against the complaint</string>
+    <string name="contact_complaints">Complaints and inquiries</string>
+    <string name="contact_cost_disclaimer">"(the cost of the connection in accordance with the operators' tariffs)"</string>
+    <string name="contact_email_address">bok@rowermevo.pl</string>
+    <string name="contact_email_complaint_appeal">bok@rowermevo.pl</string>
+    <string name="contact_email_label">email: %1$s</string>
+    <string name="contact_hours">Open 24 hours a day</string>
+    <string name="contact_hours_2">"open 24/7 
+off season Mon-Fri: 10:00 
+- 12:00"</string>
+    <string name="contact_phone">phone: %1$s</string>
+    <string name="contact_phone_number">+48 58 350 20 20</string>
+    <string name="country_error">Enter the country</string>
+    <string name="country_hint">Country</string>
+    <string name="credit_card">Credit card</string>
+    <string name="details">Details</string>
+    <string name="dialog_bike_reserved_correctly">The bike has been reserved for 15 minutes!</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_fill_details_header">Attention</string>
+    <string name="dialog_fill_details_message">Please fill your user data</string>
+    <string name="dialog_fill_details_ok">OK</string>
+    <string name="dialog_rent_bike_lock_info">The code for the digital link: %1$s</string>
+    <string name="dialog_rent_bike_rent_info">The bike number %1$s has been loaned out.</string>
+    <string name="dialog_return_bike_returned_info">Bike number %1$s has be returned!</string>
+    <string name="dialog_return_report_problem">Report problem</string>
+    <string name="dialog_return_show_rent_details">Show details</string>
+    <string name="dialog_rules_close">Close</string>
+    <string name="dialog_scan_result_rent_question">Do you want to rent a bike number:</string>
+    <string name="dialog_should_return_bike">Bike return</string>
+    <string name="dialog_should_return_bike_confirm">Return a bike</string>
+    <string name="dialog_should_return_bike_number">Bike number:</string>
+    <string name="dialog_should_return_close">Close</string>
+    <string name="dialog_should_return_confirmation">Do you want to return bike on this station?</string>
+    <string name="dialog_should_return_data">Bike: %1$s, station: %2$s</string>
+    <string name="distance_smartbike">distance: %1$s</string>
+    <string name="do_you_want_to_remove">Do you want to remove the proximity card from the phone?</string>
+    <string name="drawer_balance">%1$s %2$s</string>
+    <string name="drawer_item_bicycle_rental">Rent a bike</string>
+    <string name="drawer_item_contact_us">Contact</string>
+    <string name="drawer_item_find_bike">Search bike</string>
+    <string name="drawer_item_my_account">My account</string>
+    <string name="drawer_item_report_problem">Report fault</string>
+    <string name="drawer_item_terms_of_use_pricing_2">Regulations and pricelist</string>
+    <string name="drawer_menu_item_proximity_card">Proximity card</string>
+    <string name="drawer_name">%1$s %2$s</string>
+    <string name="duration_hour">h</string>
+    <string name="duration_minutes">m</string>
+    <string name="email_address_hint">E-mail address</string>
+    <string name="email_error">Incorrect email address</string>
+    <string name="email_hint">E-mail</string>
+    <string name="enter_pin_code">Enter the code received in the SMS message</string>
+    <string name="enter_voucher_code">Enter the coupon code to activate it</string>
+    <string name="error_cant_find_appropiate_browser">"You don't have browser that can open given url address."</string>
+    <string name="error_cant_open_in_browser">Given url address is not valid and cannot be opened in a browser.</string>
+    <string name="error_couldnt_fetch_stations_data">Error occurred when fetching stations data</string>
+    <string name="error_ocurred">An error occurred</string>
+    <string name="error_qr_bike_code_invalid">Scanned QR code is not a valid bike code.</string>
+    <string name="error_return_bike_in_rack">Oops... It looks like there are free racks on the station, please insert your bike into a free rack.</string>
+    <string name="error_return_bike_no_location">We are having problems determining your location, try again in a moment</string>
+    <string name="error_server_report_problem">Error occurred when reporting problem</string>
+    <string name="error_too_frequent_qr_renting">You can try to rent a bike only once per 5 seconds</string>
+    <string name="error_wrong_bike_number">Invalid bike number</string>
+    <string name="failed_to_add_card">The card could not be added.\\nPlease try again.</string>
+    <string name="fault">Fault</string>
+    <string name="fill_number">The number can not be empty</string>
+    <string name="fill_this_fields">* - required fields</string>
+    <string name="first_name_error">Give me your name</string>
+    <string name="first_name_hint">First name</string>
+    <string name="frag_proximity_1">Place the card on the RFID reader on the bike</string>
+    <string name="frag_proximity_2">The reader is located under the QR code - all you have to do is put the card in the place where the QR code is and wait for a few seconds.</string>
+    <string name="frag_proximity_card_header">Proximity card</string>
+    <string name="frag_proximity_card_header_step_two">Adding a proximity card</string>
+    <string name="frag_proximity_card_your_proximity_card">Your proximity card:</string>
+    <string name="frag_report_problem_report_button">Report fault</string>
+    <string name="frag_subscriptions_confirm_subscription">"You chose the %1$s subscription.
+
+The cost of the subscription: %2$s.
+
+The funds will be charged from your Mevo account."</string>
+    <string name="frag_subscriptions_confirm_subscription_yes">Confirm</string>
+    <string name="frag_subscriptions_info">Choose the best subscription for you</string>
+    <string name="frag_subscriptions_no_data_info">No data</string>
+    <string name="frag_subscriptions_not_enough_funds">"You do not have enough funds on your account.
+
+Go to top-up your account and fill in the funds"</string>
+    <string name="frag_subscriptions_not_enough_funds_topup">Top up</string>
+    <string name="frag_subscriptions_purchase_with_active_rental_or_booking">To purchase a subscription you must complete the rental / reservation</string>
+    <string name="frag_subscriptions_subscribe_failure">"Couldn't activate a subscription."</string>
+    <string name="frag_subscriptions_subscribe_success">Thank you for chosing a subscription.</string>
+    <string name="frag_subscriptions_title">Subscriptions</string>
+    <string name="frag_subscriptions_user_already_has_subscription">You can not purchase a subscription while current one is active</string>
+    <string name="frag_top_up_finish_in_browser">Finish top up process in browser</string>
+    <string name="frag_topup_subtitle">Select top-up amount</string>
+    <string name="frag_topup_title">Account top-up</string>
+    <string name="frag_transactions_header">Financial settlement</string>
+    <string name="fragment_login_register">Create an account</string>
+    <string name="fragment_login_reset_password">Reset PIN</string>
+    <string name="fragment_rent_details_header">Rental details</string>
+    <string name="fragment_rent_details_price">estimated cost: %s</string>
+    <string name="fragment_rent_details_rent_duration">rental time: %s</string>
+    <string name="fragment_rent_details_subscription_minutes_used">used free minutes: %s</string>
+    <string name="front_wheel">The front wheel</string>
+    <string name="g">g</string>
+    <string name="generate_new_pin">Generate the PIN code</string>
+    <string name="google_api_key_base">AIzaSyD58rG1nQiUSX_fJbrNQqSbUnx41bbBsDY</string>
+    <string name="handelbars">Steering wheel</string>
+    <string name="hce_scanning_failed">The card could not be scanned</string>
+    <string name="hce_scanning_in_progress">Card scanning is in progress...</string>
+    <string name="hce_stop_scanning">Abort</string>
+    <string name="header_how_it_works">How does it work?</string>
+    <string name="header_privacy_policy">Privacy policy</string>
+    <string name="inactive_account_cant_book">Your account is not active. You can not book a bike</string>
+    <string name="info_eu_financing">The project \"Construction of the OMG-G-S Metropolitan Bike\" is co-financed with the funds of the European Regional Development Fund under the Regional Operational Program of the Pomeranian Voivodeship for the years 2014-2020.</string>
+    <string name="item_rent_hisotry_cost_with_service_fee">cost: %1$s, service fee: %2$s</string>
+    <string name="item_rent_history_cost">cost: %s</string>
+    <string name="item_subscription_max_bikes_rented_simultaneously">maximum number of bikes rented on one account: %1$d</string>
+    <string name="item_subscription_package_minutes_per_day">package: %1$d minutes/day</string>
+    <string name="item_subscription_price">price: %1$s</string>
+    <string name="item_subscription_price_per_minute_after_daily_limit">after the package has been used up: %1$s/minute</string>
+    <string name="item_subscription_validity_period">validity period: %1$s</string>
+    <string name="item_transaction_price">price: %1$s</string>
+    <string name="item_transaction_price_with_service_fee">price: %1$s, service fee: %2$s</string>
+    <string name="item_transaction_service_fee">service fee: %1$s</string>
+    <string name="item_transaction_transaction_type_booking">Booking</string>
+    <string name="item_transaction_transaction_type_rental">Rental, bike %1$s</string>
+    <string name="item_transaction_transaction_type_topup">Account replenishment</string>
+    <string name="item_transaction_transaction_type_voucher">Purchase of a subscription</string>
+    <string name="item_transaction_used_subscription_seconds">used minutes: %s</string>
+    <string name="kcal">kcal</string>
+    <string name="keep_going">Go further</string>
+    <string name="last_name_error">Give me your name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="limit_reached">You can not book more bikes.</string>
+    <string name="login_button">Log in</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_phone_text">Enter data in the 48123456789 format</string>
+    <string name="login_screen_lang_separator">|</string>
+    <string name="login_screen_language_de">DE</string>
+    <string name="login_screen_language_en">EN</string>
+    <string name="login_screen_language_pl">PL</string>
+    <string name="login_screen_language_ru">RU</string>
+    <string name="login_screen_wrong_phone_number">Incorrect phone number</string>
+    <string name="login_screen_wrong_pin">Wrong PIN code</string>
+    <string name="logout">Log out</string>
+    <string name="mevo_payment_from">TOP UP %1$d ZŁ</string>
+    <string name="minus">-</string>
+    <string name="missing_localization_dialog">Enable location service on your phone to be able to use the selected function.</string>
+    <string name="missing_permissions_dialog">"To use the selected function, you must allow the MEVO application to access the device's location"</string>
+    <string name="mobile_already_registered">Mobile already registered</string>
+    <string name="my_rentals">My rentals</string>
+    <string name="nav_drawer_menu_item_subscriptions">Subscriptions</string>
+    <string name="nav_drawer_subscription_default">"Type of tariff: Minute fee
+0,10zł/min."</string>
+    <string name="nav_drawer_subscription_info">Type of tariff: %1$s</string>
+    <string name="nav_drawer_subscription_info_end_date">valid until: %1$s</string>
+    <string name="nav_drawer_subscription_minutes_used">Used minutes: %1$d/%2$d</string>
+    <string name="no">No</string>
+    <string name="no_bikes_stations">No bikes at the station</string>
+    <string name="no_data">No data</string>
+    <string name="no_internet_connection">Application requires internet connection to work.</string>
+    <string name="no_rental_history">"We do not have a common history yet :( 
+To be able to browse the bike rental."</string>
+    <string name="no_rentals">You currently do not own any loans or reservations</string>
+    <string name="now_you_can_use">Now you can use your phone as a proximity card (emitting a signal):</string>
+    <string name="ok">OK</string>
+    <string name="or_type_card">Or enter the number manually</string>
+    <string name="park">Stop</string>
+    <string name="park_booked_bike">Stop</string>
+    <string name="park_info_part_1">To park your bike,</string>
+    <string name="park_info_part_2">first press the \"Stop\" button</string>
+    <string name="park_info_part_3">and then slide down the lock lever.</string>
+    <string name="park_warning">Remember! According to the regulations, additional fees will be charged during parking.</string>
+    <string name="pedals">Pedals</string>
+    <string name="personal_data">Personal data</string>
+    <string name="pesel_error">Incorrect PESEL</string>
+    <string name="pesel_hint">PESEL number</string>
+    <string name="pesel_min_age">You must be at least %s</string>
+    <string name="pesel_number_not_valid">PESEL number is invalid or already exists in the client database</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="pin_code">Pin code</string>
+    <string name="pin_hint">PIN</string>
+    <string name="pln">zł</string>
+    <string name="problem_label_brake">Brakes</string>
+    <string name="problem_label_engine">Battery</string>
+    <string name="problem_report_success_info">Thank you for submitting your application.</string>
+    <string name="range_smartbike">range: %1$s</string>
+    <string name="rear_wheel">Rear wheel</string>
+    <string name="recover_pin_failed">An error occurred. Make sure that the data entered are correct.</string>
+    <string name="recover_pin_success">Log in using the PIN you received via SMS</string>
+    <string name="recover_pin_text">Please enter your mobile number here. Soon we will send an SMS with a new PIN.</string>
+    <string name="register">Registration</string>
+    <string name="register_accept_regulamin">Download Terms of Service</string>
+    <string name="register_agreements_closure">"1) The Controller of your personal data will be NB TRICITY Sp. z o.o., with its registered office in Warsaw (01-756), ul. Przasnyska 6b.
+
+2) You can contact the data Controller by e-mail daneosobowe@nextbike.pl, via the contact form available at bok@rowermevo.pl, by telephone at +48 22 208 99 90 or by letter sent to the registered office of NB TRICITY Sp. z o.o.
+
+3) The Controller has appointed a Data Protection Officer, whom you can contact by e-mail iod@nextbike.pl, via the contact form available at bok@rowermevo.pl, by telephone at +48 22 208 99 90 or by letter sent to the registered office of NB TRICITY Sp. z o.o. You can contact the Data Protection Officer on all matters concerning personal data processing and exercising the rights related to personal data processing.
+
+4) Your personal data will be processed in order to:
+ a. establish and service a customer account and provide services available in the System Roweru Metropolitalnego MEVO on the rules described in the System Roweru Metropolitalnego MEVO – the legal basis for the processing will be the need to process the data in order to perform the agreement to which you will be party,
+ b. fulfil legal obligations of NB TRICITY Sp. z o.o., above all the ones resulting from the accounting and tax laws – the legal basis for the processing will be the need to process the data in order to fulfil the Controller’s legal obligations,
+ c. communicate to you marketing content concerning products or services of NB TRICITY Sp. z o.o. – the legal basis for the processing will be the legitimate interest of the Controller; it is a legitimate interest of the Controller to conduct marketing activities concerning its own products or services; if consent is granted to the processing of personal data in order to communicate marketing content concerning products or services of NB TRICITY Sp. z o.o. if no agreement is concluded with NB TRICITY Sp. z o.o. and after the termination of the agreement – this consent will be the legal basis for the processing of your personal data if no agreement is concluded with NB TRICITY Sp. z o.o. and after the termination of the agreement (if the consent is not granted, personal data will not be processed for marketing purposes if no agreement is concluded with NB TRICITY Sp. z o.o. and after the termination of the agreement),
+ d. communicate to you marketing content concerning products or services of our partners; the legal basis for the processing will be the consent to the processing of personal data for the purposes of communicating marketing content concerning products or services of the partners of NB TRICITY Sp. z o.o. (if the consent is not granted, personal data will not be processed for this purpose),
+ e. ensure a possibility of checking the locations from which the bicycles were borrowed and to which they were returned in the System Roweru Metropolitalnego MEVO with the use of the GPS or verification where the bicycle is, if it is not returned – the legal basis for the processing will be the legitimate interest of the Controller; it is a legitimate interest of the Controller to protect its property interests by collecting information needed to locate the bicycle,
+ f. enable NB TRICITY Sp. z o.o. to assert or press possible claims or defend itself against claims related to the agreement concluded with you – the legal basis for the processing will be the legitimate interest of the Controller; it is a legitimate interest of the Controller to enable its asserting, pressing and defending itself against claims.
+
+5) Your personal data may be transferred to the following entities:
+ a. to Nextbike Polska S.A. which is responsible for the operation and maintenance in the System Roweru Metropolitalnego MEVO,
+ b. IT service providers,
+ c. location service providers (GPS),
+ d. marketing service providers,
+ e. online payment operators,
+ f. couriers and postal operators,
+ g. entities providing accounting and legal services.
+
+6) Your personal data will be processed until the claims resulting from the agreement you concluded with the Controller expire. After that period the data will be processed in the scope and for the time required by legal regulations, including accounting regulations. If consent is granted to process data, the data will be processed until the consent is withdrawn. The Controller will earlier cease to process the data for marketing purposes within the term of the agreement if you object to the processing of your data for that purpose.
+
+7) The consent granted to the processing of your data for the purposes of communicating to you of marketing content by NB TRICITY Sp. z o.o. may be withdrawn art any time. The manner of withdrawing the consent is specified in the Privacy Policy of NB TRICITY Sp. z o.o. The withdrawal of consent will not affect the legality of the processing which occurred before the consent was withdrawn.
+
+8) To the extent in which the legal basis for the processing of your data is the legitimate interest of the Controller you will have the right to object to the processing of your data, i.e. in particular you will have the right to object to the processing of your data for direct marketing purposes during the validity of the agreement concluded with the Controller.
+
+9) You will have the right to access your data and the right to demand rectification or removal of your data, or restriction of their processing, as well as the right to file a complaint with the supervisory authority responsible for personal data protection in the member state of your usual residence, place of work or place where an alleged violation was committed.
+
+10) As you data will be processed automatically on the basis of the agreement and consent (if granted) – you will also have the right to transfer your personal data delivered to the Controller, i.e. to receive from the Controller your personal data in a structured, commonly used, machine readable format. Your will be able to transfer such data to another data Controller. Details in this regard are described in the"<a href="https://rowermevo.pl/privacy_en.html"> Privacy Policy</a>" of NB TRICITY Sp. z o.o.
+
+11) The provision of your personal data in order to establish the account and use the services offered in the System Roweru Metropolitalnego MEVO is necessary to conclude and perform the agreement – without the provision of your personal data an agreement cannot be concluded. The provision of your personal data for the purposes of direct marketing is voluntary."</string>
+    <string name="register_agreements_info">The above consents can be withdrawn at any time. The manner of withdrawing the consent is specified in the Privacy Policy of NB TRICITY Sp. z o.o. The withdrawal of consent will not affect the legality of the processing which occurred before the consent was withdrawn.</string>
+    <string name="register_clausules">Clauses</string>
+    <string name="register_failed">Registration failed</string>
+    <string name="register_info_closures">Information clauses</string>
+    <string name="register_terms_1">I have read and accept the Regulations of the System Roweru Metropolitalnego MEVO operated by NB Tricity Sp. z o.o., with its registered office in Warsaw, ul. Przasnyska 6B, 01-756 Warsaw<a href="https://rowermevo.pl/terms_en.html"> (the Regulations are available).</a>*</string>
+    <string name="register_terms_2">I hereby grant consent for the disclosure of my personal data to Association Gdańsk-Gdynia-Sopot Metropolitan Area  for the purpose of informing me by the said association of a change of Operator managing the MEVO System as well as regarding the principles related to further use of this system.</string>
+    <string name="register_terms_3">I consent to the processing by NB Tricity Sp. z o.o., with its registered office in Warsaw, of my contact data provided in the above form, for the purpose of communicating to me marketing content concerning products or services of NB Tricity Sp. z o.o. if no agreement is concluded with NB Tricity Sp. z o.o. and after the termination of the agreement.</string>
+    <string name="register_terms_4">I consent to the processing by NB Tricity Sp. z o.o., with its registered office in Warsaw, of my contact data provided in the above form, for the purpose of communicating to me marketing content concerning products or services of partners of NB Tricity Sp. z o.o.</string>
+    <string name="register_terms_5">I consent to the communication by NB Tricity Sp. z o.o. of marketing information to me via electronic means (e-mail, SMS/MMS).</string>
+    <string name="register_terms_6">I consent to the communication by NB TRICITY Sp. z o.o. of marketing information to me via voice calls (telephone call, interactive voice response systems).</string>
+    <string name="registration_address_hint">Street *</string>
+    <string name="registration_city_hint">City *</string>
+    <string name="registration_country_hint">Country *</string>
+    <string name="registration_email_address_hint">E-mail address *</string>
+    <string name="registration_first_name_hint">First name *</string>
+    <string name="registration_last_name_hint">Name *</string>
+    <string name="registration_pesel_hint">PESEL *</string>
+    <string name="registration_phone_number_hint">Phone number *</string>
+    <string name="registration_zip_code_hint">Postal Code *</string>
+    <string name="remove">remove</string>
+    <string name="rent_bike">Rent</string>
+    <string name="rent_bike_account_inactive">Your account in not active. You need to have at least 1 PLN.</string>
+    <string name="rent_bike_error">Error occurred during your rental.</string>
+    <string name="rent_bike_error_subscription_limit">"You can't rent more bikes"</string>
+    <string name="rent_bike_qr">"rent 
+a bike"</string>
+    <string name="rent_bike_rent_tooltip">Enter the bike number shown above the QR code</string>
+    <string name="rent_bike_scanner">Rent a bike</string>
+    <string name="rent_bike_to_add_card">Rent a bike to add proximity card</string>
+    <string name="rent_bike_using_qr_scanner">Rent bike using QR scanner.</string>
+    <string name="rent_history_distance">distance: %1$s</string>
+    <string name="rent_official_station_premium_return">bonus for returning at official station: %s</string>
+    <string name="rent_service_fee_info_100000">Unauthorized Bike Return outside of the Functional Area of MEVO System</string>
+    <string name="rent_service_fee_info_100300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return outside of the Functional Area of MEVO System PLN 1000.00</string>
+    <string name="rent_service_fee_info_1040300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return in the Prohibited Zone PLN 1400.00</string>
+    <string name="rent_service_fee_info_12500">Unauthorized Bike Return outside of the Functional Area of MEVO System</string>
+    <string name="rent_service_fee_info_12800">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return outside of the Functional Area of MEVO System PLN 125.00</string>
+    <string name="rent_service_fee_info_140000">Unauthorized Bike Return in the Prohibited Zone</string>
+    <string name="rent_service_fee_info_200">Awarded Bike Return - Bike Return at MEVO station after renting it from outside of MEVO station PLN 2.00</string>
+    <string name="rent_service_fee_info_25000">Unauthorized Bike Return outside of the Functional Area of MEVO System</string>
+    <string name="rent_service_fee_info_25300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return outside of the Functional Area of MEVO System PLN 250.00</string>
+    <string name="rent_service_fee_info_300">Paid Bike Return - Bike Return outside of MEVO station</string>
+    <string name="rent_service_fee_info_45000">Unauthorized Bike Return in the Prohibited Zone</string>
+    <string name="rent_service_fee_info_45300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return in the Prohibited Zone PLN 450.00</string>
+    <string name="rent_service_fee_info_5000">Unauthorized Bike Return outside of the Functional Area of MEVO System</string>
+    <string name="rent_service_fee_info_50000">Unauthorized Bike Return outside of the Functional Area of MEVO System</string>
+    <string name="rent_service_fee_info_50300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return outside of the Functional Area of MEVO System PLN 500.00</string>
+    <string name="rent_service_fee_info_52500">Unauthorized Bike Return in the Prohibited Zone</string>
+    <string name="rent_service_fee_info_52800">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return in the Prohibited Zone PLN 525.00</string>
+    <string name="rent_service_fee_info_5300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return outside of the Functional Area of MEVO System PLN 50.00</string>
+    <string name="rent_service_fee_info_65000">Unauthorized Bike Return in the Prohibited Zone</string>
+    <string name="rent_service_fee_info_65300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return in the Prohibited Zone PLN 650.00</string>
+    <string name="rent_service_fee_info_90000">Unauthorized Bike Return in the Prohibited Zone</string>
+    <string name="rent_service_fee_info_90300">Paid Bike Return - Bike Return outside of MEVO station PLN 3.00, Unauthorized Bike Return in the Prohibited Zone PLN 900.00</string>
+    <string name="rent_service_fee_info_default">For details of the payment, please contact the Customer Service</string>
+    <string name="rent_service_fee_info_minus_200">Awarded Bike Return - Bike Return at MEVO station after renting it from outside of MEVO station PLN 2.00</string>
+    <string name="rent_smartbike">Rent</string>
+    <string name="rental_history">History of rentals</string>
+    <string name="rental_history_menu">Rental history</string>
+    <string name="rental_summary">Rental summary</string>
+    <string name="rental_summary_calories">BURNING CALORIES</string>
+    <string name="rental_summary_co2">LESS CO2</string>
+    <string name="rental_summary_cost">EXPENSE</string>
+    <string name="rental_time">rental time:</string>
+    <string name="report_description">Description of damage</string>
+    <string name="report_detail_info">Provide more details about the damage</string>
+    <string name="report_problem_header">Report fault</string>
+    <string name="reservation_500_m">You must be less than 500 meters from the bike to be able to book it</string>
+    <string name="reservation_details">Booking details</string>
+    <string name="reserve_bike">Book</string>
+    <string name="reserve_bike_2">Book your bike</string>
+    <string name="reserve_bike_failed">We could not book a bike</string>
+    <string name="resume_booked_bike_renting">Resume</string>
+    <string name="resume_drive">Resume driving</string>
+    <string name="resume_drive_text">To resume driving, approach the bicycle and press the button \"Resume driving\", the zipper will open automatically.</string>
+    <string name="resume_rent_notif_info">Bike stop has been finished</string>
+    <string name="return_bike_error">An error occurred during your return.</string>
+    <string name="return_bike_info">To return the bike, slide the lock lever down.</string>
+    <string name="return_bike_warning">Remember! According to the regulations, returning the bike outside the designated zone may result in charging additional fees</string>
+    <string name="return_rent">Return</string>
+    <string name="save">SAVE</string>
+    <string name="scan_card">scan the card</string>
+    <string name="screen_rent_bike_qr_no_permissions_info">This functionality requires a camera permit. Touch to go to the settings.</string>
+    <string name="seat">Saddle</string>
+    <string name="settings">Settings</string>
+    <string name="station">Station</string>
+    <string name="step_1">step 1 of 3</string>
+    <string name="step_2">step 2 of 3</string>
+    <string name="step_3">step 3 of 3</string>
+    <string name="street_error">Enter address</string>
+    <string name="subscription_name_2_days">2-day</string>
+    <string name="subscription_name_2_days_plus">2-day plus</string>
+    <string name="subscription_name_30_days">monthly</string>
+    <string name="subscription_name_5_days">5-day</string>
+    <string name="subscription_name_5_days_plus">5-day plus</string>
+    <string name="subscription_name_pay_as_you_go">Minute fee</string>
+    <string name="subscription_name_year">annual</string>
+    <string name="subscription_name_year_plus">annual plus</string>
+    <string name="terms_of_use_pricing">"Terms of Service
+Price list"</string>
+    <string name="to_add_card">To add a proximity card, place it on the phone and press the button:</string>
+    <string name="toast_report_battery_limit">Daily limit of failure submissions has been exceeded. Please contact our Customer Centre.</string>
+    <string name="toast_voucher_found">The voucher has been realized</string>
+    <string name="toast_voucher_not_found">Coupon code not found</string>
+    <string name="too_long_park_message">The time limit for parking bike number %1$s has been exceeded. Additional fees may be charged</string>
+    <string name="top_up">Top up your account</string>
+    <string name="top_up_amount_in_zl">Top up amount in PLN</string>
+    <string name="top_up_btn">TOP UP</string>
+    <string name="topup_custom_amout">Top up any amount</string>
+    <string name="transaction_info_rental_aboce_12h">including rental over 12h: %s</string>
+    <string name="type_card">Enter the number:</string>
+    <string name="type_card_number">Enter the card number:</string>
+    <string name="use_voucher">Use the voucher</string>
+    <string name="user_update_success">We accepted your application. The data is being verified.</string>
+    <string name="view_rent_bike_scan_help_header">Do you have a problem with scanning?</string>
+    <string name="voucher_hint">Code</string>
+    <string name="walking_no_time">Time of arrival: -</string>
+    <string name="walking_time">Time of arrival: %1$d min</string>
+    <string name="warning">Warning</string>
+    <string name="warning_bike_outside_domain">This bike is outside Mevo system, are you sure you want to rent it?</string>
+    <string name="wrong_station_number">Enter the correct bike number</string>
+    <string name="yes">Yes</string>
+    <string name="zip_code_error">Incorrect zip code</string>
+    <string name="zip_code_hint">Postal Code</string>
+</resources>

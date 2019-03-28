@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/mapColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="6dp">
+    <com.mevo.app.presentation.custom_views.BasicHeader android:id="@+id/summary_rental_rent_header" android:layout_width="match_parent" android:layout_height="45dp" app:headerText="@string/rental_summary" app:hideRefresh="true"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textColor="@color/textSkyBlue" android:id="@+id/view_rent_date_and_bike_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/roboto_medium"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                <com.mevo.app.presentation.custom_views.DistanceDashedLineView android:id="@+id/view_rent_details_distance_image" android:layout_width="14dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="20dp" android:layout_alignBottom="@+id/view_rent_details_rent_end_point_details"/>
+                <TextView android:textSize="14sp" android:textColor="@color/textSkyBlue" android:id="@+id/view_rent_details_rent_start_point_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_toRightOf="@+id/view_rent_details_distance_image" android:fontFamily="@font/roboto_regular"/>
+                <TextView android:textSize="14sp" android:textColor="@color/textSkyBlue" android:id="@+id/view_rent_details_rent_end_point_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="10dp" android:layout_toRightOf="@+id/view_rent_details_distance_image" android:layout_below="@+id/view_rent_details_rent_start_point_details" android:fontFamily="@font/roboto_regular"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rental_time" style="@style/textBasicInfoLightGrey"/>
+                <TextView android:id="@+id/view_rent_details_rent_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" style="@style/textBasicInfoLightGrey"/>
+            </LinearLayout>
+            <TextView android:id="@+id/view_rent_details_distance" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/textBasicInfoLightGrey"/>
+        </LinearLayout>
+        <View android:background="@color/dividerBlue" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="2dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="@dimen/main_grid_item_padding" android:weightSum="3">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/small_text_size_10" android:textColor="@color/rental_text" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin_1" android:text="@string/rental_summary_cost" android:fontFamily="@font/roboto_medium"/>
+                <ImageView android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/red_cost" android:scaleType="fitCenter"/>
+                <TextView android:textSize="@dimen/small_text_size_12" android:textColor="@color/rental_text" android:gravity="center" android:layout_gravity="center" android:id="@+id/view_rent_details_rent_cost" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:fontFamily="@font/roboto_regular"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/small_text_size_10" android:textColor="@color/rental_text" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin_1" android:text="@string/rental_summary_calories" android:fontFamily="@font/roboto_medium"/>
+                <ImageView android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/blue_heart" android:scaleType="fitCenter"/>
+                <TextView android:textSize="@dimen/small_text_size_12" android:textColor="@color/rental_text" android:gravity="center" android:layout_gravity="center" android:id="@+id/view_rent_details_calories" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:fontFamily="@font/roboto_regular"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/small_text_size_10" android:textColor="@color/rental_text" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin_1" android:text="@string/rental_summary_co2" android:fontFamily="@font/roboto_medium"/>
+                <ImageView android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/green_leaf" android:scaleType="fitCenter"/>
+                <TextView android:textSize="@dimen/small_text_size_12" android:textColor="@color/rental_text" android:gravity="center" android:layout_gravity="center" android:id="@+id/view_rent_details_saved_co2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:fontFamily="@font/roboto_regular"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

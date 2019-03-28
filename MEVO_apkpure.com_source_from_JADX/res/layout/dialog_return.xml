@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/space_standard" android:paddingTop="@dimen/space_standard" android:paddingRight="@dimen/space_standard" android:paddingBottom="@dimen/space_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/textGreyMedium" android:id="@id/dialog_return_rent_info" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_return_bike_returned_info" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:layout_gravity="end" android:id="@id/dialog_return_show_details_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_return_show_rent_details" style="@style/buttonDialog" />
+        <Button android:layout_gravity="end" android:id="@id/dialog_return_report_problem_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_return_report_problem" app:layout_constraintStart_toStartOf="parent" style="@style/buttonDialog" />
+        <Button android:layout_gravity="end" android:id="@id/dialog_return_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" style="@style/buttonDialog" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/view_map_station_main_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:background="@drawable/view_map_station_background_right" android:padding="@dimen/special_padding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginRight="@dimen/margin_small">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:gravity="center_horizontal" android:id="@+id/view_smartbike_id" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="1" android:fontFamily="@font/roboto_regular" style="@style/RegularTextStyleX"/>
+                    <TextView android:id="@+id/view_smartbike_number" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/special_padding_4" android:fontFamily="@font/lato_bold" android:layout_marginStart="@dimen/special_padding_4" style="@style/RegularTextStyle"/>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/list_item_current_rental_status" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="@dimen/special_padding_12" android:layout_marginRight="@dimen/space_mini" android:src="@drawable/active_renting" android:scaleType="fitCenter" android:layout_marginStart="@dimen/special_padding_12" android:layout_marginEnd="@dimen/space_mini"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/buttonGreen" android:id="@+id/view_smartbike_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lato_bold" android:textAlignment="gravity"/>
+                </LinearLayout>
+                <me.grantland.widget.AutofitTextView android:gravity="center_horizontal" android:id="@+id/view_map_station_description" android:padding="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/darkGreyBlue50TextStyle"/>
+                <TextView android:textSize="14sp" android:textColor="@color/mapRouteColor" android:gravity="center" android:id="@+id/view_smartbike_unavailable" android:paddingLeft="@dimen/special_padding_6" android:paddingRight="@dimen/special_padding_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/lato_regular" android:paddingStart="@dimen/special_padding_6"/>
+                <Button android:id="@+id/view_smartbike_available" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:layout_marginTop="@dimen/margin_small" android:text="@string/reserve_bike_2" style="@style/buttonBlue"/>
+                <TextView android:gravity="start" android:id="@+id/view_map_station_walk_time" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/walking_time" style="@style/darkGreyBlue50TextStyle"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="24dp" android:layout_height="12dp" android:src="@drawable/white_triangle" android:scaleType="fitXY" android:layout_below="@+id/view_map_station_main_container" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

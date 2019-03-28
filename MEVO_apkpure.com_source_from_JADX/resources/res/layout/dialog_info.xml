@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:paddingTop="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_padding">
+    <TextView android:textStyle="bold" android:textColor="@color/textGreyDark" android:id="@+id/dialog_info_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dialog_padding"/>
+    <View android:id="@+id/dialog_info_title_margin" android:layout_width="match_parent" android:layout_height="@dimen/space_medium"/>
+    <View android:layout_width="match_parent" android:layout_height="1px"/>
+    <TextView android:textColor="@color/textGreyDark" android:id="@+id/dialog_info_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dialog_padding"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:layout_gravity="end" android:id="@+id/dialog_info_negative_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_standard" android:text="@string/no" android:layout_marginEnd="@dimen/space_standard" style="@style/buttonDialog"/>
+        <Button android:layout_gravity="end" android:id="@+id/dialog_info_neutral_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_standard" android:text="@string/cancel" android:layout_marginEnd="@dimen/space_standard" style="@style/buttonDialog"/>
+        <Button android:layout_gravity="end" android:id="@+id/dialog_info_positive_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_medium" android:text="@string/yes" android:layout_marginEnd="@dimen/space_medium" style="@style/buttonDialog"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/mapColor" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/special_padding_6" android:layout_marginRight="@dimen/special_padding_6" android:layout_marginStart="@dimen/special_padding_6" android:layout_marginEnd="@dimen/special_padding_6">
+        <com.mevo.app.presentation.custom_views.BasicHeader android:id="@+id/view_reservation_header" android:layout_width="match_parent" android:layout_height="45dp" app:headerText="@string/reservation_details"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/main_layout" android:background="@color/white" android:padding="12dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/info_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_weight="8" android:layout_marginEnd="12dp">
+                <TextView android:id="@+id/list_item_current_rental_name_number" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RegularTextStyleX"/>
+                <TextView android:textColor="@color/textStationLightBlue" android:id="@+id/list_item_current_rental_distance" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/RegularTextStyleX"/>
+                <TextView android:id="@+id/list_item_current_rental_bike_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/roboto_regular" style="@style/darkGreyBlue50TextStyleX"/>
+                <TextView android:textColor="@color/textSkyBlue" android:id="@+id/list_item_current_rental_rent_status_info" android:paddingTop="@dimen/space_small" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/darkGreyBlue50TextStyleX"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/list_item_current_rental_vertical_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+                <Button android:id="@+id/list_item_current_rental_rent_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rent_smartbike" style="@style/buttonBlue"/>
+                <Button android:id="@+id/list_item_current_rental_cancel_booking_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:text="@string/cancel" style="@style/buttonRed"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

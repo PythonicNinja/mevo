@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/asd" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_30" android:layout_marginRight="@dimen/margin_30" android:layout_marginStart="@dimen/margin_30" android:layout_marginEnd="@dimen/margin_30">
+        <TextView android:textColor="@color/colorAccent" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:text="@string/register" style="@style/text_registration_title"/>
+        <TextView android:textSize="12sp" android:textColor="@color/colorAccent" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_3"/>
+        <TextView android:textSize="16sp" android:textColor="@color/colorAccent" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/confirmation_of_the_telephone_number"/>
+        <com.mevo.app.presentation.custom_views.CustomInput android:id="@+id/fragment_register_step_third_custom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="72dp" app:customInput_background="@drawable/edit_text_bg_grey" app:customInput_showErrorMessage="false">
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextInputLayoutBasic">
+                <android.support.design.widget.TextInputEditText android:textColor="@color/textInput" android:id="@+id/fragment_register_step_third_edit_text_pin" android:background="@drawable/custom_input_valid_edit_text_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/pin_code" android:maxLines="1" android:inputType="number" android:imeOptions="actionDone"/>
+            </android.support.design.widget.TextInputLayout>
+        </com.mevo.app.presentation.custom_views.CustomInput>
+        <TextView android:textSize="12sp" android:textColor="@color/lightHintColor" android:id="@+id/fragment_register_step_third_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/enter_pin_code" android:layout_marginStart="12dp"/>
+        <android.support.v7.widget.AppCompatButton android:id="@+id/fragment_register_step_third_create_account_button" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:layout_marginTop="20dp" android:text="@string/fragment_login_register" style="@style/buttonBlue"/>
+    </LinearLayout>
+</LinearLayout>

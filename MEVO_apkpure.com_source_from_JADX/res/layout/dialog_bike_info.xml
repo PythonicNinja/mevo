@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/textGreyDark" android:id="@id/dialog_bike_info_message_bike" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:layout_gravity="end" android:id="@id/dialog_bike_info_negative_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no" style="@style/buttonDialog" />
+        <View android:id="@id/dialog_bike_info_pre_neutral" android:layout_width="@dimen/space_standard" android:layout_height="0.0dip" />
+        <Button android:layout_gravity="end" android:id="@id/dialog_bike_info_neutral_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/buttonDialog" />
+        <View android:id="@id/dialog_bike_info_pre_positive" android:layout_width="@dimen/space_standard" android:layout_height="0.0dip" />
+        <Button android:layout_gravity="end" android:id="@id/dialog_bike_info_positive_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" style="@style/buttonDialog" />
+    </LinearLayout>
+</LinearLayout>

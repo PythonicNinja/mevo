@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/textGreyDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_scan_result_rent_question" />
+    <TextView android:textSize="36.0sp" android:textColor="@color/textBasic2" android:gravity="center" android:id="@id/dialog_scan_result_bike_number_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_standard" android:fontFamily="@font/roboto_medium" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:id="@id/dialog_scan_result_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_standard" android:text="@string/dialog_close" android:layout_marginEnd="@dimen/space_standard" style="@style/buttonDialog" />
+        <Button android:id="@id/dialog_scan_result_rent_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rent_bike" style="@style/buttonDialog" />
+    </LinearLayout>
+</LinearLayout>

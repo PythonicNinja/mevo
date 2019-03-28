@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/view_checkbox_main_layout" android:background="@drawable/edit_text_bg_grey" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatCheckBox android:id="@id/view_checkbox_check" android:padding="5.0dip" android:paddingRight="8.0dip" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:scaleX="0.8" android:scaleY="0.8" android:paddingEnd="8.0dip" />
+    <android.support.v7.widget.AppCompatTextView android:textColor="@color/textStationMain" android:gravity="center_vertical" android:id="@id/view_checkbox_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:maxLines="2" android:layout_toRightOf="@id/view_checkbox_check" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toEndOf="@id/view_checkbox_check" app:autoSizeMaxTextSize="@dimen/small_text_size_12" app:autoSizeMinTextSize="@dimen/small_text_size_8" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/textGreyDark" android:id="@id/dialog_bike_reserved_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_fill_details_message" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:id="@id/dialog_fill_details_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" android:layout_marginEnd="@dimen/space_standard" style="@style/buttonDialog" />
+        <Button android:id="@id/dialog_fill_details_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_fill_details_ok" style="@style/buttonDialog" />
+    </LinearLayout>
+</LinearLayout>

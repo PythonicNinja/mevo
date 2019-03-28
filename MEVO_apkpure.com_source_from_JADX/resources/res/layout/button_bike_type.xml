@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/button_bike_type_rl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <ImageView android:id="@+id/button_bike_type_image" android:layout_width="match_parent" android:layout_height="32dp" android:scaleType="fitCenter"/>
+        <me.grantland.widget.AutofitTextView android:textSize="@dimen/button_bikes_text_size" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@+id/button_bike_type_text" android:padding="@dimen/space_mini" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="2"/>
+        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.1"/>
+        <CheckBox android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/button_bike_type_check_box" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox_find_bike"/>
+    </LinearLayout>
+    <View android:id="@+id/button_bike_type_click_interceptor" android:background="@color/transparent" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

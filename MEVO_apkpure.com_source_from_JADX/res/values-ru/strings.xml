@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abbreviation_minutes">Минимум</string>
+    <string name="abbreviation_seconds">Секунд</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_capital_off">ОТКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_search_hint">Поиск</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ приложению \"%s\"</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="acceptance_of_the_regulations">Принятие правил</string>
+    <string name="account_active">активный</string>
+    <string name="account_inactive">неактивный</string>
+    <string name="account_status_2">Статус учетной записи:</string>
+    <string name="active">активный</string>
+    <string name="add">добавлять</string>
+    <string name="add_next_card">ДОБАВЬТЕ ДРУГУЮ КАРТУ</string>
+    <string name="additionally">дополнительно:</string>
+    <string name="address_hint">Улица</string>
+    <string name="amount_of_reserved_bikes">Зарезервированные велосипеды: %1$s</string>
+    <string name="app_name">Mevo</string>
+    <string name="battery_smartbike">аккумулятор:</string>
+    <string name="bike_book_time">срок действия бронирования истекает для: %1$s</string>
+    <string name="bike_cannot_be_returned_trough_app">Этот велосипед сейчас не может быть возвращен через приложение.</string>
+    <string name="bike_not_availaible_for_rent">Велосипед не доступен</string>
+    <string name="bike_number">Номер велосипеда</string>
+    <string name="bike_parking_fail">Велосипедная стоянка %1$s не удалось!</string>
+    <string name="bike_parking_success">Номер велосипеда %1$s припаркован!</string>
+    <string name="bike_rent_resume_fail">Возобновление проката мотоцикла %1$s провалилось!</string>
+    <string name="bike_rent_resume_success">Номер проката велосипедов %1$s был возобновлен!</string>
+    <string name="bike_rent_time">время: %1$s</string>
+    <string name="bike_rent_time_cost">время: %1$s, расходы: %2$s</string>
+    <string name="bike_rental">аренда:</string>
+    <string name="bike_reservation_cancel_fail">Отмена бронирования велосипеда не удалась!</string>
+    <string name="bike_reservation_cancel_success">Бронирование велосипедов отменено!</string>
+    <string name="bike_reservation_confimation_question">Вы хотите заказать велосипед?</string>
+    <string name="bike_return">возвращение:</string>
+    <string name="bike_type_electric">Smartbike</string>
+    <string name="bike_type_kids_4">Детский велосипед 4+</string>
+    <string name="bike_type_kids_6">Детский велосипед 6+</string>
+    <string name="bike_type_standard">Городской велосипед</string>
+    <string name="bike_type_tandem">Тандем</string>
+    <string name="bikes_num">Велосипеды</string>
+    <string name="bikes_number">Количество велосипедов:</string>
+    <string name="bikes_stations">Велосипеды на станции %1$s</string>
+    <string name="cancel">Отмена</string>
+    <string name="card_added">Карточка добавлена.</string>
+    <string name="card_number">Номер карты</string>
+    <string name="card_number_colon">Номер карты:</string>
+    <string name="chain">цепь</string>
+    <string name="channel_description">default channel</string>
+    <string name="check_all_terms">Выберите все необходимые условия</string>
+    <string name="check_box_error">Выберите хотя бы один элемент</string>
+    <string name="city_error">Введите название города</string>
+    <string name="city_hint">Город</string>
+    <string name="close">близко</string>
+    <string name="code">Код:</string>
+    <string name="code_block">код блокировки:</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="confirmation_of_the_telephone_number">Подтверждение номера телефона</string>
+    <string name="contact_center">Обслуживание клиентов</string>
+    <string name="contact_complaint_appeal">Подать жалобу на жалобу</string>
+    <string name="contact_complaints">Жалобы и запросы</string>
+    <string name="contact_cost_disclaimer">(стоимость подключения в соответствии с тарифами операторов)</string>
+    <string name="contact_email_address">bok@rowermevo.pl</string>
+    <string name="contact_email_complaint_appeal">bok@rowermevo.pl</string>
+    <string name="contact_email_label">email: %1$s</string>
+    <string name="contact_hours">Открыт 24 часа в сутки</string>
+    <string name="contact_hours_2">"открыт 24/7 
+вне сезона Пн-Пт: 10:00 
+- 12:00"</string>
+    <string name="contact_phone">телефон: %1$s</string>
+    <string name="contact_phone_number">+48 58 350 20 20</string>
+    <string name="country_error">Введите страну</string>
+    <string name="country_hint">страна</string>
+    <string name="credit_card">Кредитная карта</string>
+    <string name="details">детали</string>
+    <string name="dialog_bike_reserved_correctly">Велосипед зарезервирован на 15 минут!</string>
+    <string name="dialog_close">Закрыть</string>
+    <string name="dialog_fill_details_header">Внимание!</string>
+    <string name="dialog_fill_details_message">Заполните, пожалуйста, ваши данные пользователя</string>
+    <string name="dialog_fill_details_ok">ОК</string>
+    <string name="dialog_rent_bike_lock_info">Код для цифровой ссылки: %1$s</string>
+    <string name="dialog_rent_bike_rent_info">Номер байка %1$s был предоставлен взаймы.</string>
+    <string name="dialog_return_bike_returned_info">Номер велосипеда %1$s возвращается!</string>
+    <string name="dialog_return_report_problem">Отчет о проблемах</string>
+    <string name="dialog_return_show_rent_details">Показать детали</string>
+    <string name="dialog_rules_close">Закрыть</string>
+    <string name="dialog_scan_result_rent_question">Вы хотите арендовать велосипедный номер:</string>
+    <string name="dialog_should_return_bike">Возвращение велосипеда</string>
+    <string name="dialog_should_return_bike_confirm">Вернуть велосипед</string>
+    <string name="dialog_should_return_bike_number">Номер велосипеда:</string>
+    <string name="dialog_should_return_close">Закрыть</string>
+    <string name="dialog_should_return_confirmation">Вы хотите вернуть велосипед на эту станцию?</string>
+    <string name="dialog_should_return_data">Велосипед: %1$s, станция: %2$s</string>
+    <string name="distance_smartbike">расстояние: %1$s</string>
+    <string name="do_you_want_to_remove">Вы хотите удалить проксимити карту с телефона?</string>
+    <string name="drawer_balance">%1$s %2$s</string>
+    <string name="drawer_item_bicycle_rental">Прокат велосипедов</string>
+    <string name="drawer_item_contact_us">Контакты</string>
+    <string name="drawer_item_find_bike">Найти велосипед</string>
+    <string name="drawer_item_my_account">Личный кабинет</string>
+    <string name="drawer_item_report_problem">Сообщить о неисправности</string>
+    <string name="drawer_item_terms_of_use_pricing_2">Правила и прейскурант</string>
+    <string name="drawer_menu_item_proximity_card">Карта проксимити</string>
+    <string name="drawer_name">%1$s %2$s</string>
+    <string name="duration_hour">h</string>
+    <string name="duration_minutes">m</string>
+    <string name="email_address_hint">Адрес электронной почты</string>
+    <string name="email_error">Неверный адрес электронной почты</string>
+    <string name="email_hint">E-mail</string>
+    <string name="enter_pin_code">Введите код, полученный в SMS-сообщении</string>
+    <string name="enter_voucher_code">Введите код купона, чтобы активировать</string>
+    <string name="error_cant_find_appropiate_browser">У вас нет браузер, который может открыть адрес URL-адрес дается.</string>
+    <string name="error_cant_open_in_browser">Учитывая адрес URL не является действительным и не может быть открыт в браузере</string>
+    <string name="error_couldnt_fetch_stations_data">Произошла ошибка при извлечении данных станций</string>
+    <string name="error_ocurred">Произошла ошибка</string>
+    <string name="error_qr_bike_code_invalid">Отсканированный QR-код не правильный код велосипеда.</string>
+    <string name="error_return_bike_in_rack">Упс ... Похоже, на станции есть свободные стойки, пожалуйста, вставьте свой велосипед в свободную стойку.</string>
+    <string name="error_return_bike_no_location">У нас возникают проблемы с определением вашего местоположения, попробуйте еще раз в одно мгновение</string>
+    <string name="error_server_report_problem">Произошла ошибка при составлении отчетов о проблеме</string>
+    <string name="error_too_frequent_qr_renting">Вы можете взять напрокат велосипед только один раз за 5 секунд</string>
+    <string name="error_wrong_bike_number">Неверный номер велосипеда</string>
+    <string name="failed_to_add_card">Карту не удалось добавить.\\nПожалуйста, попробуйте еще раз.</string>
+    <string name="fault">придираться</string>
+    <string name="fcm_fallback_notification_channel_label">Другое</string>
+    <string name="fill_number">Число не может быть пустым</string>
+    <string name="fill_this_fields">* - обязательные поля</string>
+    <string name="first_name_error">Дайте мне свое имя</string>
+    <string name="first_name_hint">Имя</string>
+    <string name="frag_proximity_1">Поместите карту на считыватель RFID на велосипеде</string>
+    <string name="frag_proximity_2">Читатель находится под кодом QR - все, что вам нужно сделать, это поместить карту в место, где находится QR-код, и ждать нескольких секунд.</string>
+    <string name="frag_proximity_card_header">Карта проксимити</string>
+    <string name="frag_proximity_card_header_step_two">Добавление проксимити карты</string>
+    <string name="frag_proximity_card_your_proximity_card">Ваша карта проксимити</string>
+    <string name="frag_report_problem_report_button">Сообщить о неисправности</string>
+    <string name="frag_subscriptions_confirm_subscription">"вы выбрали подписку %1$s.
+
+Стоимость подписки: %2$s.
+
+Средства будут сняты с вашего счета Mevo."</string>
+    <string name="frag_subscriptions_confirm_subscription_yes">подтвердить</string>
+    <string name="frag_subscriptions_info">Выберите лучшую подписку для вас</string>
+    <string name="frag_subscriptions_no_data_info">Нет данных</string>
+    <string name="frag_subscriptions_not_enough_funds">"У вас недостаточно средств на вашем счете.
+
+Пополните свой аккаунт и заполните его"</string>
+    <string name="frag_subscriptions_not_enough_funds_topup">Пополнить</string>
+    <string name="frag_subscriptions_purchase_with_active_rental_or_booking">Для покупки подписки вы должны завершить аренду / бронирование</string>
+    <string name="frag_subscriptions_subscribe_failure">Не удалось активировать подписку.</string>
+    <string name="frag_subscriptions_subscribe_success">Спасибо, что выбрали подписку.</string>
+    <string name="frag_subscriptions_title">Подписки</string>
+    <string name="frag_subscriptions_user_already_has_subscription">Вы не можете приобрести подписку, пока активна текущая</string>
+    <string name="frag_top_up_finish_in_browser">Завершить процесс пополнения в браузере</string>
+    <string name="frag_topup_subtitle">Выберите сумму пополнения</string>
+    <string name="frag_topup_title">Пополнение счета</string>
+    <string name="frag_transactions_header">Финансовые расчеты</string>
+    <string name="fragment_login_register">Создать учетную запись</string>
+    <string name="fragment_login_reset_password">Сбросить PIN-код</string>
+    <string name="fragment_rent_details_header">Детали аренды</string>
+    <string name="fragment_rent_details_price">сметная стоимость: %s</string>
+    <string name="fragment_rent_details_rent_duration">Время аренды: %s</string>
+    <string name="fragment_rent_details_subscription_minutes_used">использованные свободные минуты: %s</string>
+    <string name="front_wheel">Переднее колесо</string>
+    <string name="g">г</string>
+    <string name="generate_new_pin">Создание PIN-кода</string>
+    <string name="google_api_key_base">AIzaSyD58rG1nQiUSX_fJbrNQqSbUnx41bbBsDY</string>
+    <string name="handelbars">руль</string>
+    <string name="hce_scanning_failed">Карту не удалось отсканировать</string>
+    <string name="hce_scanning_in_progress">Выполняется сканирование карты...</string>
+    <string name="hce_stop_scanning">Прервать</string>
+    <string name="header_how_it_works">Как это работает?</string>
+    <string name="header_privacy_policy">Политика конфиденциальности</string>
+    <string name="inactive_account_cant_book">Ваш аккаунт не активен. Вы не можете забронировать велосипед.</string>
+    <string name="info_eu_financing">Проект «Строительство метрополитена OMG-G-S» совместно финансируется за счет средств Европейского фонда регионального развития в рамках Региональной оперативной программы Поморского воеводства на 2014-2020 годы.</string>
+    <string name="item_rent_hisotry_cost_with_service_fee">стоимость: %1$s, плата за обслуживание: %2$s</string>
+    <string name="item_rent_history_cost">Стоимость: %s</string>
+    <string name="item_subscription_max_bikes_rented_simultaneously">максимальное количество велосипедов, арендованных на одном счете: %1$d</string>
+    <string name="item_subscription_package_minutes_per_day">пакет: %1$d минут/день</string>
+    <string name="item_subscription_price">цена: %1$s</string>
+    <string name="item_subscription_price_per_minute_after_daily_limit">после того, как пакет был израсходован: %1$s/минут</string>
+    <string name="item_subscription_validity_period">срок годности: %1$s</string>
+    <string name="item_transaction_price">цена: %1$s</string>
+    <string name="item_transaction_price_with_service_fee">цена: %1$s, плата за обслуживание: %2$s</string>
+    <string name="item_transaction_service_fee">плата за обслуживание %1$s</string>
+    <string name="item_transaction_transaction_type_booking">бронирование</string>
+    <string name="item_transaction_transaction_type_rental">Аренда, велосипед %1$s</string>
+    <string name="item_transaction_transaction_type_topup">Пополнение счета</string>
+    <string name="item_transaction_transaction_type_voucher">Покупка подписки</string>
+    <string name="item_transaction_used_subscription_seconds">использованные минуты: %s</string>
+    <string name="kcal">kcal</string>
+    <string name="keep_going">Переместить</string>
+    <string name="last_name_error">Дайте мне свое имя</string>
+    <string name="last_name_hint">Фамилия</string>
+    <string name="limit_reached">Вы не можете забронировать больше велосипедов.</string>
+    <string name="login_button">Войти</string>
+    <string name="login_failed">Неудачная попытка входа</string>
+    <string name="login_phone_text">Введите данные в формате 48123456789</string>
+    <string name="login_screen_lang_separator">|</string>
+    <string name="login_screen_language_de">DE</string>
+    <string name="login_screen_language_en">EN</string>
+    <string name="login_screen_language_pl">PL</string>
+    <string name="login_screen_language_ru">RU</string>
+    <string name="login_screen_wrong_phone_number">Неверный номер телефона</string>
+    <string name="login_screen_wrong_pin">Неверный PIN-код</string>
+    <string name="logout">Выйти</string>
+    <string name="mevo_payment_from">пополнение %1$d ZŁ</string>
+    <string name="minus">-</string>
+    <string name="missing_localization_dialog">Включите функцию определения местоположения на телефоне, чтобы иметь возможность использовать выбранную функцию.</string>
+    <string name="missing_permissions_dialog">Чтобы использовать выбранную функцию, вы должны разрешить приложению MEVO обращаться к местоположению устройства</string>
+    <string name="mobile_already_registered">Номер телефона уже зарегистрирован</string>
+    <string name="my_rentals">Мой прокат</string>
+    <string name="nav_drawer_menu_item_subscriptions">Подписки</string>
+    <string name="nav_drawer_subscription_default">"Тип тарифа: плата за минуту
+0,10zł/мин."</string>
+    <string name="nav_drawer_subscription_info">Тип тарифа: %1$s</string>
+    <string name="nav_drawer_subscription_info_end_date">действует до: %1$s</string>
+    <string name="nav_drawer_subscription_minutes_used">Используемые минуты: %1$d/%2$d</string>
+    <string name="no">не</string>
+    <string name="no_bikes_stations">Нет велосипедов на станции</string>
+    <string name="no_data">Нет данных</string>
+    <string name="no_internet_connection">Приложение требует подключения к Интернету для работы.</string>
+    <string name="no_rental_history">"У нас еще нет общей истории :( 
+Вы можете просмотреть прокат велосипедов."</string>
+    <string name="no_rentals">Вы в настоящее время не являетесь владельцем кредиты или резервы</string>
+    <string name="now_you_can_use">Теперь вы можете использовать свой телефон в качестве бесконтактной карты (излучающей сигнал):</string>
+    <string name="ok">OK</string>
+    <string name="or_type_card">Или введите номер вручную</string>
+    <string name="park">Остановить</string>
+    <string name="park_booked_bike">Остановить</string>
+    <string name="park_info_part_1">Чтобы припарковать свой велосипед,</string>
+    <string name="park_info_part_2">в первую очередь нажмите \"Остановить\"</string>
+    <string name="park_info_part_3">затем сдвиньте рычаг блокировки.</string>
+    <string name="park_warning">Помните! Согласно правилам, во время парковки взимается дополнительная плата.</string>
+    <string name="pedals">педали</string>
+    <string name="personal_data">Личные данные</string>
+    <string name="pesel_error">Неправильный PESEL</string>
+    <string name="pesel_hint">PESEL</string>
+    <string name="pesel_min_age">Вы должны быть не менее %s</string>
+    <string name="pesel_number_not_valid">Номер PESEL недействителен или уже существует в базе данных клиента</string>
+    <string name="phone_number_hint">Номер телефона</string>
+    <string name="pin_code">ПИН-код</string>
+    <string name="pin_hint">PIN</string>
+    <string name="pln">zł</string>
+    <string name="problem_label_brake">тормоза</string>
+    <string name="problem_label_engine">аккумулятор</string>
+    <string name="problem_report_success_info">Спасибо, что подали заявку.</string>
+    <string name="range_smartbike">диапазон: %1$s</string>
+    <string name="rear_wheel">Заднее колесо</string>
+    <string name="recover_pin_failed">Произошла ошибка. Убедитесь в том, что данные, введенные правильно.</string>
+    <string name="recover_pin_success">Войдите в систему, используя PIN-код, полученный по SMS</string>
+    <string name="recover_pin_text">Пожалуйста, введите свой номер мобильного телефона здесь. Вскоре мы отправим SMS с новым PIN-кодом.</string>
+    <string name="register">Регистрация</string>
+    <string name="register_accept_regulamin">Скачать Условия</string>
+    <string name="register_agreements_closure">"1) Администратором Ваших персональных данных будет ООО NB TRICITY с местом нахождения в Варшаве (01-756), ул. Пшасныска 6 b.
+
+2) С администратором данных можно связаться по электронной почте daneosobowe@nextbike.pl, через контактную форму по адресу bok@rowermevo.pl, по телефону 48 22 208 99 90 или письменно на адрес офиса ООО NB TRICITY
+
+3) Администратор назначил Инспектора по защите персональных данных, с которым Вы можете связаться по электронной почте iod@nextbike.pl, через контактную форму по адресу bok@rowermevo.pl, по телефону 48 22 208 99 90 или письменно на адрес офиса ООО NB TRICITY. С Инспектором по защите данных можно связаться по поводу любых дел, касающихся обработки персональных данных и прав, связанных с обработкой данных.
+
+4) Ваши персональные данные будут обрабатываться с целью:
+ •создания и ведения аккаунта Клиента и предоставления услуг, доступных в рамках Системы метрополитальный велосипед MEVO на условиях, описанных в Правилах системы метрополитальный велосипед MEVO - правовой основой обработки будет необходимость выполнения договора, стороной которого Вы будете являться.
+ •выполнения юридических обязательств ООО NB TRICITY, в первую очередь, вытекающие из положений по бухгалтерскому учету и налогового законодательства, - правовой основой для обработки будет необходимость выполнения юридических обязательств, возлагаемых на Администратора,
+ •предоставления Вам маркетинговой информации о продуктах или услугах ООО NB TRICITY - правовой основой обработки будет законный интерес Администратора; законным интересом Администратора является проведение маркетинговой деятельности в отношении собственных продуктов или услуг; в случае выражения согласия на обработку персональных данных с целью передачи маркетинговой информации о продуктах или услугах компании ООО NB TRICITY, в случае не заключения договора и после окончания действия договора - это согласие станет правовой основой для обработки Ваших персональных данных в случае не заключения договора с ООО NB TRICITY и после его завершения (в случае несогласия, Ваши персональные данные не будут обрабатываться в целях маркетинга в случае не заключения договора и после его завершения)
+ •предоставления Вам маркетинговой информации о продуктах или услугах наших партнеров; правовой основой для обработки будет согласие на обработку данных для предоставления маркетинговой информации о продуктах или услугах партнеров ООО NB TRICITY. (Если Вы не согласны, Ваши персональные данные не будут обрабатываться с этой целью),
+ •обеспечения возможности контроля, с какого места был взят напрокат и, где возвращен велосипед в Системе метрополитальный велосипед MEVO с использованием системы GPS или проверки местонахождения велосипеда в случае отсутствия возврата - правовой основой обработки будет законный интерес Администратора; законным интересом Администратора является защита имущественных интересов путем сбора информации, позволяющей обнаружить местонахождение велосипеда,
+ •установления или рассмотрения потенциальных претензий или защиты от претензий ООО NB TRICITY, касающиеся заключенного с Вами договора; правовой основой для обработки будет законный интерес Администратора; законным интересом Администратора является предоставление возможности установления, рассмотрения или защиты от претензий.
+
+5) Ваши персональные данные могут быть переданы следующим субъектам:
+ • обществу Nextbike Polska S.A., которая отвечает за эксплуатацию и техническое обслуживание Системы метрополитального велосипеда MEVO,
+ • ИТ-провайдерам,
+ • поставщикам услуг по местонахождению (GPS),
+ • поставщикам маркетинговых услуг,
+ • операторам платежей в Интернете,
+ • курьерам и почтовым операторам,
+ • Субъектам, предоставляющим бухгалтерские и юридические услуги.
+
+6) Ваши персональные данные будут обрабатываться до момента завершения срока действия претензий, возникающих из заключенного Вами договора с Администратором. После этого периода данные будут обрабатываться в объеме и в течение времени, требуемого законодательством, включая положения о бухгалтерском учете. В случае выражения согласия на обработку данных, данные будут обрабатываться до отзыва согласия. Администратор ранее прекратит обрабатывать данные в маркетинговых целях в течение действия договора, если Вы подадите возражение против обработки Ваших данных для этой цели.
+
+7) Предоставленное согласие на обработку данных для передачи Вам маркетинговой информации ООО NB TRICITY Вы можете отозвать в любое время. Способ отзыва согласия указан в Политике конфиденциальности ООО NB TRICITY. Отзыв согласия не повлияет на законность обработки, проведенной до его отзыва.
+
+8) В сфере, в которой основой обработки Ваших персональных данных будет законный интерес Администратора, у Вас будет право внести возражение против обработки Ваших персональных данных, то есть, Вы будете иметь право возражать против обработки данных с целью предоставления Вам маркетинговой информации в течение срока действия договора, заключенного с Администратором.
+
+9) У Вас будет право на доступ к данным и право требовать их исправления, удаления или ограничения их обработки, а также право подать жалобу в надзорный орган, занимающийся защитой персональных данных в государстве-члене Вашего постоянного пребывания, по месту работы или месту совершения возможного нарушения.
+
+10) Поскольку Ваши данные будут обрабатываться автоматически на основании договора и согласия (если оно будет выражено), Вы также сможете передавать персональные данные, которые Вы предоставляете Администратору, то есть Вы имеете право получить от Администратора Ваши персональные данные в структурированном, широко используемом машиночитаемом формате. Такие данные могут быть отправлены Вами другим Администраторам данных. Детали этого описаны в Политике конфиденциальности ООО NB TRICITY."<a href="https://rowermevo.pl/privacy_ru.html"> [Ссылка на Политику]</a>"a.
+
+11) Предоставление персональных данных для создания аккаунта, а дальше для пользования услугами, которые предлагаются в рамках Системы метрополитального велосипеда MEVO необходимо для заключения и исполнения договора - без предоставления персональных данных невозможно заключить договор. Предоставление данных для передачи маркетинговой информации является добровольным."</string>
+    <string name="register_agreements_info">Вышеупомянутые согласия могут быть отозваны в любое время. Способ отзыва согласия указанный в Политике конфиденциальности ООО NB TRICITY. Отзыв согласия не повлияет на законность обработки, проведенной до отзыва.</string>
+    <string name="register_clausules">статьи</string>
+    <string name="register_failed">Не удалось зарегистрироваться</string>
+    <string name="register_info_closures">Информационные статьи</string>
+    <string name="register_terms_1">Прочитал/ла Правила Системы метрополитального велосипеда MEVO, Оператором которой является ООО NB TRICITY с зарегистрированным местом нахождения в Варшаве, ул. Пшасныска 6B, 01-756 Варшава<a href="https://rowermevo.pl/terms_ru.html"> (Правила можно найти здесь)</a>*.</string>
+    <string name="register_terms_2">Я соглашаюсь на передачу моих персональных данных Ассоциации метрополитальная зона Гданьск-Гдыня-Сопот с целью информирования меня этой ассоциацией об изменении Оператора, управляющего системой MEVO, и правил дальнейшего использования этой системы.</string>
+    <string name="register_terms_3">Я даю согласие на обработку компанией ООО NB TRICITY с местом нахождения в Варшаве, моих контактных данных, указанных в вышеприведенной форме, с целью предоставления мне маркетинговой информации о продуктах или услугах ООО NB TRICITY в случае заключения с ним договора и после его завершения.</string>
+    <string name="register_terms_4">Я даю согласие на обработку ООО NB TRICITY с местом нахождения в Варшаве, моих контактных данных указанных в вышеприведенной форме, с целью предоставления мне маркетинговой информации о продуктах или услугах партнеров компании ООО NB TRICITY.</string>
+    <string name="register_terms_5">Я даю согласие на отправку мне компанией ООО NB TRICITY маркетинговой информации с помощью электронных средств связи (электронная почта, SMS / MMS).</string>
+    <string name="register_terms_6">Я даю согласие на отправку мне ООО NB TRICITY маркетинговой информации с помощью голосовых звонков (телефонный разговор, автоматическая система звонков IVR).</string>
+    <string name="registration_address_hint">Улица *</string>
+    <string name="registration_city_hint">Город *</string>
+    <string name="registration_country_hint">Страна *</string>
+    <string name="registration_email_address_hint">Адрес электронной почты *</string>
+    <string name="registration_first_name_hint">Имя *</string>
+    <string name="registration_last_name_hint">Фамилия *</string>
+    <string name="registration_pesel_hint">PESEL *</string>
+    <string name="registration_phone_number_hint">Номер телефона *</string>
+    <string name="registration_zip_code_hint">Почтовый код *</string>
+    <string name="remove">удаление</string>
+    <string name="rent_bike">Арендовать велосипед</string>
+    <string name="rent_bike_account_inactive">Ваша учетная запись неактивна. Состояние вашей учетной записи должно быть не менее PLN 1</string>
+    <string name="rent_bike_error">При попытке взять велосипед произошел сбой</string>
+    <string name="rent_bike_error_subscription_limit">Вы не можете арендовать больше велосипедов</string>
+    <string name="rent_bike_qr">"прокат 
+велосипедов"</string>
+    <string name="rent_bike_rent_tooltip">Введите номер велосипеда, указанный выше QR-кода</string>
+    <string name="rent_bike_scanner">Прокат велосипедов</string>
+    <string name="rent_bike_to_add_card">Возьмите велосипед, чтобы добавить проксимити карту</string>
+    <string name="rent_bike_using_qr_scanner">Прокат велосипедов с помощью QR-сканера.</string>
+    <string name="rent_history_distance">расстояние: %1$s</string>
+    <string name="rent_official_station_premium_return">бонус за возврат на официальной станции: %s</string>
+    <string name="rent_service_fee_info_100000">Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO</string>
+    <string name="rent_service_fee_info_100300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO PLN 1000.00</string>
+    <string name="rent_service_fee_info_1040300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда в запретной зоне PLN 1400.00</string>
+    <string name="rent_service_fee_info_12500">Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO</string>
+    <string name="rent_service_fee_info_12800">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO PLN 125.00</string>
+    <string name="rent_service_fee_info_140000">Запрещенный возврат велосипеда в запретной зоне</string>
+    <string name="rent_service_fee_info_200">Возврат велосипеда – Возврат велосипеда на станции MEVO, после взятия напрокат за пределами станции MEVO PLN 2.00</string>
+    <string name="rent_service_fee_info_25000">Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO</string>
+    <string name="rent_service_fee_info_25300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO PLN 250.00</string>
+    <string name="rent_service_fee_info_300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO</string>
+    <string name="rent_service_fee_info_45000">Запрещенный возврат велосипеда в запретной зоне</string>
+    <string name="rent_service_fee_info_45300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда в запретной зоне PLN 450.00</string>
+    <string name="rent_service_fee_info_5000">Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO</string>
+    <string name="rent_service_fee_info_50000">Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO</string>
+    <string name="rent_service_fee_info_50300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO PLN 500.00</string>
+    <string name="rent_service_fee_info_52500">Запрещенный возврат велосипеда в запретной зоне</string>
+    <string name="rent_service_fee_info_52800">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда в запретной зоне PLN 525.00</string>
+    <string name="rent_service_fee_info_5300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда за пределами зоны функционирования системы MEVO PLN 50.00</string>
+    <string name="rent_service_fee_info_65000">Запрещенный возврат велосипеда в запретной зоне</string>
+    <string name="rent_service_fee_info_65300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда в запретной зоне PLN 650.00</string>
+    <string name="rent_service_fee_info_90000">Запрещенный возврат велосипеда в запретной зоне</string>
+    <string name="rent_service_fee_info_90300">Платный возврат велосипеда – возврат велосипеда за пределами станции MEVO PLN 3.00, Запрещенный возврат велосипеда в запретной зоне PLN 900.00</string>
+    <string name="rent_service_fee_info_default">Для получения подробной информации об оплате, пожалуйста, свяжитесь со службой поддержки</string>
+    <string name="rent_service_fee_info_minus_200">Возврат велосипеда – Возврат велосипеда на станции MEVO, после взятия напрокат за пределами станции MEVO PLN 2.00</string>
+    <string name="rent_smartbike">брать</string>
+    <string name="rental_history">История использования</string>
+    <string name="rental_history_menu">История проката</string>
+    <string name="rental_summary">Арендная плата</string>
+    <string name="rental_summary_calories">ГОРЯЩИЕ КАЛОРИИ</string>
+    <string name="rental_summary_co2">Меньший CO2</string>
+    <string name="rental_summary_cost">СТОИМОСТЬ</string>
+    <string name="rental_time">Время аренды:</string>
+    <string name="report_description">Описание ущерба</string>
+    <string name="report_detail_info">Предоставьте более подробную информацию об ущербе</string>
+    <string name="report_problem_header">Сообщить о неисправности</string>
+    <string name="reservation_500_m">Вы должны быть менее чем в 500 метрах от велосипеда, чтобы иметь возможность заказать его</string>
+    <string name="reservation_details">Детали бронирования</string>
+    <string name="reserve_bike">книга</string>
+    <string name="reserve_bike_2">Закажите свой велосипед</string>
+    <string name="reserve_bike_failed">Мы не могли заказать велосипед</string>
+    <string name="resume_booked_bike_renting">резюме</string>
+    <string name="resume_drive">Вождение вождения</string>
+    <string name="resume_drive_text">Чтобы возобновить движение, подходите к велосипеду и нажмите кнопку \"Вождение вождения\", молния откроется автоматически.</string>
+    <string name="resume_rent_notif_info">Остановка велосипеда была закончена</string>
+    <string name="return_bike_error">При возврате велосипеда произошла ошибка.</string>
+    <string name="return_bike_info">Чтобы вернуть велосипед, сдвиньте фиксатор вниз.</string>
+    <string name="return_bike_warning">Помните! Согласно правилам, возвращение велосипеда за пределы назначенной зоны может привести к взиманию дополнительных сборов</string>
+    <string name="return_rent">Возврат</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="scan_card">сканировать карту</string>
+    <string name="screen_rent_bike_qr_no_permissions_info">Для этой функции требуется разрешение камеры. Нажмите, чтобы перейти к настройкам.</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="seat">седло</string>
+    <string name="settings">настройки</string>
+    <string name="station">Станция</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="step_1">шаг 1 из 3</string>
+    <string name="step_2">шаг 2 из 3</string>
+    <string name="step_3">шаг 3 из 3</string>
+    <string name="street_error">Введите адрес</string>
+    <string name="subscription_name_2_days">2-дневная</string>
+    <string name="subscription_name_2_days_plus">2- дневная плюс</string>
+    <string name="subscription_name_30_days">ежемесячный</string>
+    <string name="subscription_name_5_days">5- дневная</string>
+    <string name="subscription_name_5_days_plus">5- дневная плюс</string>
+    <string name="subscription_name_pay_as_you_go">плата за минуту</string>
+    <string name="subscription_name_year">годовой</string>
+    <string name="subscription_name_year_plus">Годовой плюс</string>
+    <string name="terms_of_use_pricing">Условия/цены</string>
+    <string name="to_add_card">Чтобы добавить проксимити карту, поместите ее на телефон и нажмите кнопку:</string>
+    <string name="toast_report_battery_limit">Превышен дневной лимит заявок о неисправностях. Пожалуйста, свяжитесь с Бюро обслуживания клиентов.</string>
+    <string name="toast_voucher_found">Купон был завершен</string>
+    <string name="toast_voucher_not_found">Код купона не найден</string>
+    <string name="too_long_park_message">Превышен срок для стоянки велосипеда %1$s. Дополнительные сборы могут взиматься</string>
+    <string name="top_up">Пополнить счет</string>
+    <string name="top_up_amount_in_zl">Сумма пополнения в злотых</string>
+    <string name="top_up_btn">ПОПОЛНИТЬ</string>
+    <string name="topup_custom_amout">Пополнить любую сумму</string>
+    <string name="transaction_info_rental_aboce_12h">включая аренду в течение 12 часов: %s</string>
+    <string name="type_card">Введите номер:</string>
+    <string name="type_card_number">Введите номер карты:</string>
+    <string name="use_voucher">использовать ваучер</string>
+    <string name="user_update_success">Мы приняли ваше заявление. Данные проверяются.</string>
+    <string name="view_rent_bike_scan_help_header">У вас проблемы со сканированием?</string>
+    <string name="voucher_hint">код</string>
+    <string name="walking_no_time">Время прибытия: -</string>
+    <string name="walking_time">Ankunftszeit: %1$d min</string>
+    <string name="warning">Осторожность</string>
+    <string name="warning_bike_outside_domain">Этот велосипед находится вне системы Mevo, вы уверены, что вы хотите арендовать его?</string>
+    <string name="wrong_station_number">Введите правильный номер велосипеда</string>
+    <string name="yes">так</string>
+    <string name="zip_code_error">Неверный почтовый индекс</string>
+    <string name="zip_code_hint">Индекс</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/button_background_light_grey" android:paddingLeft="@dimen/button_check_padding_side" android:paddingTop="@dimen/button_check_padding_top_bottom" android:paddingRight="@dimen/button_check_padding_side" android:paddingBottom="@dimen/button_check_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/button_check_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_medium" android:layout_weight="1.0" />
+    <ImageView android:id="@id/button_check_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/check_off_16dp" />
+</LinearLayout>

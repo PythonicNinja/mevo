@@ -1,0 +1,26 @@
+package com.raizlabs.android.dbflow.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.FIELD})
+@Retention(RetentionPolicy.SOURCE)
+public @interface ForeignKey {
+    boolean deferred() default false;
+
+    boolean deleteForeignKeyModel() default false;
+
+    ForeignKeyAction onDelete() default ForeignKeyAction.NO_ACTION;
+
+    ForeignKeyAction onUpdate() default ForeignKeyAction.NO_ACTION;
+
+    ForeignKeyReference[] references() default {};
+
+    boolean saveForeignKeyModel() default false;
+
+    boolean stubbedRelationship() default false;
+
+    Class<?> tableClass() default Object.class;
+}

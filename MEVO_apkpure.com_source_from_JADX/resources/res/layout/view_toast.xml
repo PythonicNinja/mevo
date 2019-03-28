@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/fragment_login_custom_toast_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textColor="@color/textColorToastError" android:gravity="center" android:id="@+id/fragment_login_toast_message_text" android:background="@drawable/toast_background_error" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

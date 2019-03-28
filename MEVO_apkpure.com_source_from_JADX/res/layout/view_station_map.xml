@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_map_station_main_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:background="@drawable/view_map_station_background_right" android:padding="@dimen/special_padding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="center_horizontal" android:id="@id/view_map_station_name" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:minLines="1" android:fontFamily="@font/roboto_medium" style="@style/RegularTextStyleX" />
+                <me.grantland.widget.AutofitTextView android:gravity="center_horizontal" android:id="@id/view_map_station_description" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/roboto_regular" style="@style/darkGreyBlue50TextStyle" />
+                <Button android:id="@id/view_station_map_reserve_button" android:layout_width="wrap_content" android:layout_height="@dimen/button_height" android:layout_marginLeft="@dimen/margin_small" android:layout_marginTop="@dimen/margin_small" android:layout_marginRight="@dimen/margin_small" android:text="@string/reserve_bike_2" style="@style/buttonBlue" />
+                <TextView android:gravity="start" android:id="@id/view_map_station_walk_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginRight="@dimen/margin_small" android:layout_marginBottom="2.0dip" android:text="@string/walking_time" style="@style/darkGreyBlue50TextStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="24.0dip" android:layout_height="12.0dip" android:src="@drawable/white_triangle" android:scaleType="fitXY" android:layout_below="@id/view_map_station_main_container" android:layout_centerHorizontal="true" />
+</RelativeLayout>

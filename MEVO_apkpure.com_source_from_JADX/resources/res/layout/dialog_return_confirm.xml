@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dialog_padding" android:paddingTop="@dimen/dialog_padding" android:paddingRight="@dimen/dialog_padding" android:paddingBottom="@dimen/space_medium" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:textColor="@color/textGreyDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dialog_should_return_confirmation" android:fontFamily="@font/roboto_regular"/>
+    <TextView android:textSize="18sp" android:textColor="@color/textGreyDark" android:id="@+id/dialog_return_confirm_data" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_standard" android:fontFamily="@font/roboto_regular"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_large">
+        <Button android:id="@+id/dialog_return_confirm_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_standard" android:text="@string/dialog_should_return_close" android:layout_marginEnd="@dimen/space_standard" style="@style/buttonDialog"/>
+        <Button android:id="@+id/dialog_return_confirm_confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_should_return_bike_confirm" style="@style/buttonDialog"/>
+    </LinearLayout>
+</LinearLayout>

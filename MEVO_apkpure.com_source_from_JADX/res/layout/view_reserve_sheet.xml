@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mevo.app.presentation.custom_views.BasicHeader android:id="@id/view_reserve_sheet_header" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" app:headerText="@string/bikes_stations" style="@style/RegularTextStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/view_reserve_sheet_reserve_button_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatButton android:layout_gravity="center_vertical" android:id="@id/view_reserve_sheet_reserve_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/reserve_bike_2" android:layout_marginStart="80.0dip" android:layout_marginEnd="80.0dip" style="@style/buttonBlue" />
+        <TextView android:gravity="center" android:id="@id/view_reserve_sheet_reserved_bikes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" style="@style/textBasicInfoLightGrey" />
+        <View android:id="@id/fragment_rent_divider" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView android:id="@id/view_reserve_sheet_bikes_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:divider="@color/transparent" android:dividerHeight="@dimen/space_mini" android:overScrollMode="never" />
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <TextView android:gravity="center" android:id="@id/view_reserve_sheet_no_bikes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_x_large" android:text="@string/no_bikes_stations" style="@style/text_no_items" />
+    </FrameLayout>
+</LinearLayout>

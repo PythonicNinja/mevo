@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/top_up_amount_in_zl" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/view_top_up_minus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" style="@style/buttonWhite" />
+            <com.mevo.app.presentation.custom_views.CustomInput android:id="@id/fragment_user_details_email_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:customInput_background="@drawable/edit_text_bg_grey">
+                <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextInputLayoutBasic">
+                    <android.support.design.widget.TextInputEditText android:textSize="@dimen/standard_text_size" android:textColor="@color/textInput" android:id="@id/view_top_up_edit_amount" android:background="@drawable/custom_input_valid_edit_text_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="80.0dip" android:text="1" android:maxLines="1" android:inputType="number" android:textAlignment="center" />
+                </android.support.design.widget.TextInputLayout>
+            </com.mevo.app.presentation.custom_views.CustomInput>
+            <Button android:id="@id/view_top_up_plus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" style="@style/buttonWhite" />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton android:id="@id/view_top_up_top_up_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="6.0dip" android:text="@string/top_up_btn" style="@style/buttonBlue" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="end" android:id="@id/view_top_up_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_normal" android:text="@string/cancel" android:layout_marginEnd="@dimen/space_normal" style="@style/buttonDialog" />
+    </LinearLayout>
+</LinearLayout>

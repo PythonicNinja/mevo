@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.DrawerLayout android:id="@id/activity_main_drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-3.0dip" android:layout_below="@id/activity_main_app_toolbar">
+        <LinearLayout android:orientation="vertical" android:id="@id/activity_main_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.mevo.app.presentation.main.navigation_drawer.NavigationDrawer android:layout_gravity="end" android:id="@id/activity_main_navigation_drawer" android:layout_width="260.0dip" android:layout_height="fill_parent" />
+    </android.support.v4.widget.DrawerLayout>
+    <com.mevo.app.presentation.custom_views.AppToolbar android:id="@id/activity_main_app_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:backButtonVisibility="false" />
+    <com.mevo.app.presentation.custom_views.ProgressOverlayView android:id="@id/activity_main_progress_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>
