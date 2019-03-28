@@ -5,6 +5,12 @@ mevo app decompiled
 # interesting api routes
 https://mevo-api.nextbike.net/maps/nextbike-live.xml
 
+there is scrapper for live maps so that map analysis can be performed how bikes moved across the infrastructure
+Crontab rule
+`$ crontab -e`
+```
+*/2   *       *       *       *       cd /path_to_poject/mevo/maps && python3 daily.py  >> output.log 2>&1
+```
 
 # example curl login based on code analysis
 
