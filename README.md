@@ -1,13 +1,16 @@
-# mevo
-Mevo app decompiled
+# Mevo
+Mevo app decompiled and it's API analyzed.
 
-https://play.google.com/store/apps/details?id=com.mevo.app
-https://rowermevo.pl/
-
+Table of contents:
 - [login](#login)
-- [how to reserve bike programatically?](#how-to-reserve-bike-programatically-)
+- [how to reserve bike programatically](#how-to-reserve-bike-programatically)
 - [interesting api routes](#interesting-api-routes)
-- [other parts of the code with constants:](#other-parts-of-the-code-with-constants-)
+- [other parts of the code with constants](#other-parts-of-the-code-with-constants)
+- [links](#links)
+
+# links
+- https://play.google.com/store/apps/details?id=com.mevo.app
+- https://rowermevo.pl/
 
 # interesting api routes
 https://mevo-api.nextbike.net/maps/nextbike-live.xml
@@ -43,7 +46,7 @@ curl -X POST \
 `loginkey` is most important from above response
 
 
-# how to reserve bike programatically?
+# how to reserve bike programatically
 
 1. obtain loginkey from above
 2. obtain place
@@ -74,7 +77,7 @@ as a result you will get:
 ```
 
 
-# other parts of the code with constants:
+# other parts of the code with constants
 
 ```
 package com.mevo.app.constants;
