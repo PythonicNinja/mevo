@@ -36,6 +36,37 @@ curl -X POST \
 `loginkey` is most important from above response
 
 
+# how to reserve bike programatically
+
+1. obtain loginkey from above
+2. obtain place
+3. obtain start_time
+4. obtain end_time
+5. make api_call
+
+```
+curl -X POST \
+  https://mevo-api.nextbike.net/api/booking.xml \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"apikey": "2QwXmCM6h7p6DMeE",
+	"loginkey": "<login_key>",
+	"num_bikes": 1,
+	"place": "11121753",
+	"start_time": 1553814199, # this needs to be synced with server_time + 3 seconds at least as in source
+	"end_time": 1553814925 # this can be max start_time + 900 (s) - 900 / 60 = 15min
+}'
+```
+as a result you will get:
+```
+<?xml version="1.0" encoding="utf-8"?>
+<nextbike version="1.0" server_time="1553814100" >
+    <booking id="102295" biketypes="[]" place_id="11121753" place_name="10100" lat="54.445355" lng="18.570946" spot="1" start_time="1553814125" end_time="1553814925" num_bikes="1" booked="1" max_bookingtime_before_rental="0" state="" state_id="0" cust_id="4326798" booking_code="711805" price="0" price_service="0" confirm="1" used_free_seconds="0" />
+</nextbike>
+```
+
+
 # other parts of the code with constants:
 
 ```
