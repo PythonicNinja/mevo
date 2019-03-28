@@ -6,6 +6,30 @@ mevo app decompiled
 https://mevo-api.nextbike.net/maps/nextbike-live.xml
 
 
+# example curl login based on code analysis
+
+```
+curl -X POST \
+  https://mevo-api.nextbike.net/api/login.xml \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"api_key": "2QwXmCM6h7p6DMeE",
+	"domain": "tc",
+	"mobile": "<phonenumber>",
+	"pin": "<pin>"
+}'
+
+<?xml version="1.0" encoding="utf-8"?>
+<nextbike version="1.0" server_time="1553557835" >
+    <user mobile="<phonenumber>" loginkey="<important_token>" rfid_uids="" active="0" lang="PL" domain="tc" currency="PLN" credits="0" free_seconds="0" payment="cs" team_owner="0" team_id="0" max_bikes="1" screen_name="<name>" newsletter="0" accepted_terms="tc" needs_email_verification="0" required_actions="activate_account" is_vcn_active="0" is_swift_active="0" data_daily_reservations="[]" data_daily_reservations_last_update="" data_subscription_purchase_timestamp="1552651627" pesel="<pesel>" />
+    <account server_time="" />
+</nextbike>
+```
+
+`loginkey` is most important from above response
+
+
 # other parts of the code with constants:
 
 ```
