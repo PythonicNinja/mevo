@@ -1,6 +1,12 @@
 # mevo
 mevo app decompiled
 
+TOC:
+- [mevo](#mevo)
+- [interesting api routes](#interesting-api-routes)
+- [login](#login)
+- [how to reserve bike programatically?](#how-to-reserve-bike-programatically-)
+- [other parts of the code with constants:](#other-parts-of-the-code-with-constants-)
 
 # interesting api routes
 https://mevo-api.nextbike.net/maps/nextbike-live.xml
@@ -12,7 +18,7 @@ Crontab rule
 */2   *       *       *       *       cd /path_to_poject/mevo/maps && python3 daily.py  >> output.log 2>&1
 ```
 
-# example curl login based on code analysis
+# login
 
 ```
 curl -X POST \
@@ -36,7 +42,7 @@ curl -X POST \
 `loginkey` is most important from above response
 
 
-# how to reserve bike programatically
+# how to reserve bike programatically?
 
 1. obtain loginkey from above
 2. obtain place
