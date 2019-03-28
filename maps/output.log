@@ -2073,3 +2073,33 @@ Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:
 
 2019-03-29 00:28:02 (231 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:28:01.120624.xml’ saved [231065/231065]
 
+--2019-03-29 00:29:00--  https://mevo-api.nextbike.net/maps/nextbike-live.xml
+Resolving mevo-api.nextbike.net... 46.163.83.209
+Connecting to mevo-api.nextbike.net|46.163.83.209|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 231219 (226K) [text/xml]
+Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:29:00.335655.xml’
+
+     0K .......... .......... .......... .......... .......... 22%  240K 1s
+    50K .......... .......... .......... .......... .......... 44%  326K 0s
+   100K .......... .......... .......... .......... .......... 66%  421K 0s
+   150K .......... .......... .......... .......... .......... 88%  375K 0s
+   200K .......... .......... .....                           100%  539K=0.7s
+
+2019-03-29 00:29:01 (342 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:29:00.335655.xml’ saved [231219/231219]
+
+--2019-03-29 00:30:00--  https://mevo-api.nextbike.net/maps/nextbike-live.xml
+Resolving mevo-api.nextbike.net... 46.163.83.209
+Connecting to mevo-api.nextbike.net|46.163.83.209|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 230864 (225K) [text/xml]
+Saving to: ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:30:00.587974.xml’
+
+     0K .......... .......... .......... .......... .......... 22%  234K 1s
+    50K .......... .......... .......... .......... .......... 44%  292K 0s
+   100K .......... .......... .......... .......... .......... 66%  492K 0s
+   150K .......... .......... .......... .......... .......... 88%  478K 0s
+   200K .......... .......... .....                           100%  457K=0.6s
+
+2019-03-29 00:30:01 (348 KB/s) - ‘/Users/pythonicninja/PycharmProjects/mevo/maps/mevo_2019-03-29T00:30:00.587974.xml’ saved [230864/230864]
+
